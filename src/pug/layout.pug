@@ -7,11 +7,13 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='author', content='YoYoHung')
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css')
-    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
+    //- link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
     //- link(rel='stylesheet', href='./style/loader.css')
     //- link(rel='stylesheet', href='./style/animate.css')
-    link(rel='stylesheet', href='./style/main.css')
+    //- link(href="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/style/semantic.min.css&action=raw&ctype=text/css" type="text/css" rel="stylesheet")
     link(href="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/style/main.css&action=raw&ctype=text/css" type="text/css" rel="stylesheet")
+    link(rel='stylesheet', href='./style/main.css')
+    link(rel='stylesheet', href='./style/member.css')
     //- link(rel='stylesheet', href='./style/footer.css')
     block css
 
@@ -19,12 +21,14 @@ html(lang='en')
     include ./navbar.pug
     .ui.main.text.container
       block mainbg
+      block memberbox
       .ui.segments
         block content
     include ./footer.pug
     //- script(src='./js/jquery.min.js')  
     script(src="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/js/jquery.min.js&action=raw&ctype=text/javascript")
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js')
+    script(src="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/js/semantic.min.js&action=raw&ctype=text/javascript")
+    //- script(src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js')
     //- script(src='./js/main.js')
     script(src="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/js/main.js&action=raw&ctype=text/javascript")
     block js

@@ -1,6 +1,23 @@
 extends layout
 block content
-  .ui.raised.segment
+  .ui.left.very.close.rail#railMenu
+    .ui.sticky
+      .ui.secondary.vertical.pointing.menu
+        a.active.item(href='#top')
+          | 前言
+        a.item(href='#ref')
+          | 參考文獻
+        a.item(href='#foot')
+          | 追蹤我們
+  .ui.raised.segment#mainbox
+    .ui.sticky#mobileRailMenu
+      .ui.secondary.vertical.pointing.menu
+        a.active.item(href='#top')
+          | 前言
+        a.item(href='#ref')
+          | 參考文獻
+        a.item(href='#foot')
+          | 追蹤我們
     h1.ui.hidden.header#top
     .ui.huge.header 孫氏且望的文章
     h2.ui.dividing.header 前言

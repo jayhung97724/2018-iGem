@@ -6,5 +6,28 @@ $(document).ready(function () {
       scrollTop: 0                       // Scroll to top of body
     }, 500);
   });
-  $('.ui.dropdown').dropdown()
+  $('.ui.sticky').sticky({
+    context: '#mainbox'
+  });
+  $('.ui.dropdown').dropdown();
+  var
+    $dropdownItem = $('.main.container .menu .dropdown .item'), 
+    $menuItem = $('.main.container .menu a.item, .menu .link.item').not($dropdownItem),
+    // alias
+    handler = {
+
+      activate: function () {
+        if (!$(this).hasClass('dropdown browse')) {
+          $(this)
+            .addClass('active')
+            .closest('.ui.menu')
+            .find('.item')
+            .not($(this))
+            .removeClass('active')
+            ;
+        }
+      }
+
+    };
+  $menuItem.on('click', handler.activate);
 });
