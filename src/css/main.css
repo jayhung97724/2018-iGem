@@ -35,9 +35,9 @@
   .ui.main.text.container {
     margin-top: 40px;
   }
-  .ui.hidden.header {
+  /* .ui.hidden.header {
     display: none;
-  }
+  } */
   .fixed.menu {
     padding-bottom: 10px;
     height: 40px;
