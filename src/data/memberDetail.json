@@ -1,0 +1,128 @@
+[
+  {
+    "name_TW": "陳孝鈞",
+    "name_EN": "Chen, Hsiou jun",
+    "major": "Plant Pathology",
+    "division": "Wet Lab",
+    "work": "Wet Lab Leader"
+  },
+  {
+    "name_TW": "徐子又",
+    "name_EN": "Hsu, Tzu-Yu",
+    "major": "Physics",
+    "division": "Wet Lab",
+    "work": "Toxicology - Cell Viability Test"
+  },
+  {
+    "name_TW": "孫祖望",
+    "name_EN": "Sun, Tsu-Wang",
+    "major": "Plant Pathology",
+    "division": "Wet Lab",
+    "work": "Team Leader"
+  },
+  {
+    "name_TW": "梁如皓",
+    "name_EN": "Liang, Ru-How",
+    "major": "Life Science",
+    "division": "Wet Lab",
+    "work": "Protein Purification, Enzyme Activity Test"
+  },
+  {
+    "name_TW": "賴彥琳",
+    "name_EN": "Lai, Yan-Lin",
+    "major": "Plant Pathology",
+    "division": "Wet Lab",
+    "work": "Plant Experiments"
+  },
+  {
+    "name_TW": "顏語儂",
+    "name_EN": "Yen, Yu Nung",
+    "major": "Plant Pathology",
+    "division": "Wet Lab",
+    "work": "Plant Experiments"
+  },
+  {
+    "name_TW": "洪世勳",
+    "name_EN": "Hung, Shih-Hsun",
+    "major": "Horticulture",
+    "division": "Wet Lab",
+    "work": "Phyto Leader"
+  },
+  {
+    "name_TW": "陳郁璇",
+    "name_EN": "Chen, Yu-Hsuan",
+    "major": "Biotechnology",
+    "division": "Wet Lab",
+    "work": "Lab Work"
+  },
+  {
+    "name_TW": "張恩妮",
+    "name_EN": "Chang, En-ni",
+    "major": "Biotechnology",
+    "division": "Wet Lab",
+    "work": "Gene Functional Test"
+  },
+  {
+    "name_TW": "黃優人",
+    "name_EN": "Huang, Eu-gene",
+    "major": "Biotechnology",
+    "division": "Wet Lab",
+    "work": "Cloning"
+  },
+  {
+    "name_TW": "王俞臻",
+    "name_EN": "Wang,Yu-Chen",
+    "major": "Life Science",
+    "division": "Wet Lab",
+    "work": "Cloning"
+  },
+  {
+    "name_TW": "陳怡蒨",
+    "name_EN": "Chen,Yi-Cian",
+    "major": "Biotechnology",
+    "division": "Wet Lab",
+    "work": "Interlab, Biobricks, Endophyte Transformation"
+  },
+  {
+    "name_TW": "林郁熹",
+    "name_EN": "Lin,Yu-Hsi",
+    "major": "Biotechnology",
+    "division": "Wet Lab",
+    "work": "Biobricks, Cloning"
+  },
+  {
+    "name_TW": "鍾芷昀",
+    "name_EN": "Chung,Chih-Yun",
+    "major": "Life Science",
+    "division": "Wet Lab",
+    "work": "?"
+  },
+  {
+    "name_TW": "林鈺臻",
+    "name_EN": "Lin, Yu-Chen",
+    "major": "Food Science",
+    "division": "Human Practice",
+    "work": "HP Leader"
+  },
+  {
+    "name_TW": "游天維",
+    "name_EN": "Yu, Tien-Wei",
+    "major": "Physics",
+    "division": "Dry Lab",
+    "work": "Visual Design"
+  },
+  {
+    "name_TW": "廖帝凱",
+    "name_EN": "Liao, Ti-Kai",
+    "major": "Electrical Engineering",
+    "division": "Dry Lab",
+    "work": "Team Leader, Modeling, Asia-Pacific iGEM Conference"
+  },
+  {
+    "name_TW": "洪浩祐",
+    "name_EN": "Hung, Hao-You",
+    "major": "Computer Science",
+    "division": "Dry Lab",
+    "work": "Wiki Edit, Web UI Design"
+  }
+]

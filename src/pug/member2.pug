@@ -1,0 +1,29 @@
+extends layout
+block css
+  link(rel="stylesheet", href="./style/member.css")
+block memberbox
+  #memberbox
+    h1.ui.hidden.header 
+    h1.ui.huge.pink.header.label We are team NCHU Taichung, Taiwan!!!
+    template#cardsTemplate
+      h2.ui.dividing.header#divHeader Leader
+      .ui.cards
+        .card#cardTemplate                 
+          .image
+            img(src='https://semantic-ui.com/images/avatar2/large/matthew.png')
+          .content#content1
+            .header#name Mr. 孫示且望
+            .meta
+              a 植病系
+            .description
+              | A sentence you want to say！！！
+          .content#content2
+            h4.ui.sub.header Work
+            .description
+          .ui.bottom.attached.button(data-title='More about me', 
+                                    data-content='Clicked popups will close if you click away, but not if you click inside the popup. Clicked popups will close if you click away, but not if you click inside the popup. Clicked popups will close if you click away, but not if you click inside the popup. ',
+                                    data-position='top center',
+                                    data-variation='large')
+            i.comment.icon
+block js
+  script(src="./js/member2.js")
