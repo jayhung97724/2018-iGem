@@ -4,6 +4,12 @@
 .card .icon {
   margin: 0!important;
 }
+.card .button {
+  background: #eff1ee;
+}
+.card .button:hover {
+  background-color: #e1eadc;
+}
 @media only screen and (max-width: 767px) {
   .card {
     margin-right: unset!important;
