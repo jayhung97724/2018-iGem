@@ -54,8 +54,8 @@ $.getJSON("./data/memberDetail.json", (file) => {
       // console.log(Dcard);
       divCards.append(Dcard);
     });
-    $('.cards .card:first-child()').remove();
   });
+  $('.cards .card:first-child()').remove();
 });
 $(document).ready(function () {
   $('.button')
