@@ -56,11 +56,9 @@ $.getJSON("./data/memberDetail.json", (file) => {
     });
   });
   $('.cards .card:first-child()').remove();
-});
-$(document).ready(function () {
   $('.button')
     .popup({
       transition: 'fade up',
       on: 'click'
-  });
+    });
 });
