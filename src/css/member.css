@@ -1,14 +1,15 @@
 .card {
-  margin-right: 60px!important;
+  margin-right: 34px!important;
+  margin-left: 34px!important;
 }
 .card .icon {
   margin: 0!important;
 }
 .card .button {
-  background: #eff1ee;
+  background: #6bd2c1;
 }
 .card .button:hover {
-  background-color: #e1eadc;
+  background-color: #baebe3;
 }
 #bannerImg {
   box-shadow: 3px 5px 14px 0px #cdcdcd;
@@ -17,5 +18,9 @@
 @media only screen and (max-width: 767px) {
   .card {
     margin-right: unset!important;
+    margin-left: unset!important;
+  }
+  .cards {
+    justify-content: center;
   }
 }
