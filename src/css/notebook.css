@@ -270,6 +270,22 @@ header > .wrapper a {
   padding-bottom: 65%;
   overflow: hidden;
 }
+@media only screen and (max-width: 767px) {
+  .c-calendar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .c-cal__container {
+    width: 300px;
+    padding-bottom: 85%;
+  }
+  .c-cal__cel {
+    margin-bottom: 4px;
+  }
+  header > .wrapper a {
+    margin-left: -6px;
+  }
+}
 .c-main {
   position: absolute;
   top: 0;
