@@ -1,6 +1,9 @@
 .main {
   margin: 60px auto 60px auto;
 }
+#padding{
+  height: 80vh;
+}
 #logo {
   padding-top: 2px;
   width: 100px;
