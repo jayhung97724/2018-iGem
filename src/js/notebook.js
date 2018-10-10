@@ -28,6 +28,7 @@ var winCreator = $(".js-event__creator");
 var inputDate = $(this).data();
 today = year + "-" + month + "-" + day;
 
+var eventList = [];
 
 // ------ set default events -------
 function defaultEvents(dataDay, dataName, dataNotes, classTag) {
@@ -38,12 +39,12 @@ function defaultEvents(dataDay, dataName, dataNotes, classTag) {
   date.addClass("event--" + classTag);
 }
 
-defaultEvents(today, 'YEAH!', 'Today is your day', 'important');
-defaultEvents('2018-12-25', 'MERRY CHRISTMAS', 'A lot of gift!!!!', 'festivity');
-defaultEvents('2018-10-04', "LUCA'S BIRTHDAY", 'Another gifts...?', 'birthday');
-defaultEvents('2018-10-08', "MY LADY'S BIRTHDAY 1", 'A lot of money to spent!!!!', 'birthday');
-defaultEvents('2018-10-10', "MY LADY'S BIRTHDAY 2", 'A lot of money to spent!!!!', 'festivity');
-defaultEvents(today, 'YEAH!', 'Today is your day', 'important');
+// defaultEvents(today, 'YEAH!', 'Today is your day', 'important');
+// defaultEvents('2018-12-25', 'MERRY CHRISTMAS', 'A lot of gift!!!!', 'festivity');
+// defaultEvents('2018-10-04', "LUCA'S BIRTHDAY", 'Another gifts...?', 'birthday');
+// defaultEvents('2018-10-08', "MY LADY'S BIRTHDAY 1", 'A lot of money to spent!!!!', 'birthday');
+// defaultEvents('2018-10-10', "MY LADY'S BIRTHDAY 2", 'A lot of money to spent!!!!<br><br><img class="ui small image" src="https://semantic-ui.com/images/avatar2/large/matthew.png">', 'event');
+// defaultEvents(today, 'YEAH!', 'Today is your day', 'important');
 
 // ------ functions control -------
 
@@ -112,9 +113,86 @@ dataCel.each(function () {
 //   $("#addEvent")[0].reset();
 // });
 
+function filterEventByDate(date) {
+  return eventList.filter((event) => {
+    return event.date == date;
+  });
+}
+$.getJSON("./data/eventDetail.json", (file) => {
+  eventList = file;
+  findUniqueDateNaddClass();
+  console.log(eventList[1]);
+});
+
+// findUniqueDate and add class event
+function findUniqueDateNaddClass() {
+  uniqueDays = $.unique(eventList.map(function (e) {
+    return e.date;
+  }));
+  uniqueDays.forEach((dataDay) => {
+    var date = $('*[data-day=' + dataDay + ']');
+    date.addClass("event");
+  });
+}
+
+// fillDayEvents 
+function fillDayEvents(e) {
+  var thisName = e.work;
+  var thisNotes = e.note;
+  var thisImage = (e.image == '') ? '' : '<br><br><img src="' + e.image + '">';
+  console.log(thisImage);
+  // var thisImportant = e.hasClass("event--important");
+  // var thisBirthday = e.hasClass("event--birthday");
+  // var thisFestivity = e.hasClass("event--festivity");
+  var thisEvent = true;
+  var thisParagraph = thisNotes + thisImage;
+  console.log(thisParagraph);
+  switch (true) {
+    // case thisImportant:
+    //   $(".c-aside__eventList").append(
+    //     "<p class='c-aside__event c-aside__event--important'>" +
+    //     thisName +
+    //     ":<br><span> • " +
+    //     thisParagraph +
+    //     "</span></p>"
+    //   );
+    //   break;
+    // case thisBirthday:
+    //   $(".c-aside__eventList").append(
+    //     "<p class='c-aside__event c-aside__event--birthday'>" +
+    //     thisName +
+    //     ":<br><span> • " +
+    //     thisParagraph +
+    //     "</span></p>"
+    //   );
+    //   break;
+    // case thisFestivity:
+    //   $(".c-aside__eventList").append(
+    //     "<p class='c-aside__event c-aside__event--festivity'>" +
+    //     thisName +
+    //     ":<br><span> • " +
+    //     thisParagraph +
+    //     "</span></p>"
+    //   );
+    //   break;
+    case thisEvent:
+      $(".c-aside__eventList").append(
+        "<p class='c-aside__event'>" +
+        thisName +
+        ":<br><span> • " +
+        thisParagraph +
+        "</span></p>"
+      );
+      break;
+  }
+}
+
+
+
 //fill sidebar event info
 function fillEventSidebar(self) {
   $(".c-aside__event").remove();
+  var thisDay = self.attr("data-day");
   var thisName = self.attr("data-name");
   var thisNotes = self.attr("data-notes");
   var thisImportant = self.hasClass("event--important");
@@ -122,44 +200,9 @@ function fillEventSidebar(self) {
   var thisFestivity = self.hasClass("event--festivity");
   var thisEvent = self.hasClass("event");
 
-  switch (true) {
-    case thisImportant:
-      $(".c-aside__eventList").append(
-        "<p class='c-aside__event c-aside__event--important'>" +
-        thisName +
-        " <span> • " +
-        thisNotes +
-        "</span></p>"
-      );
-      break;
-    case thisBirthday:
-      $(".c-aside__eventList").append(
-        "<p class='c-aside__event c-aside__event--birthday'>" +
-        thisName +
-        " <span> • " +
-        thisNotes +
-        "</span></p>"
-      );
-      break;
-    case thisFestivity:
-      $(".c-aside__eventList").append(
-        "<p class='c-aside__event c-aside__event--festivity'>" +
-        thisName +
-        " <span> • " +
-        thisNotes +
-        "</span></p>"
-      );
-      break;
-    case thisEvent:
-      $(".c-aside__eventList").append(
-        "<p class='c-aside__event'>" +
-        thisName +
-        " <span> • " +
-        thisNotes +
-        "</span></p>"
-      );
-      break;
-  }
+  eventsOnDay = filterEventByDate(thisDay);
+  console.log(eventsOnDay);
+  eventsOnDay.forEach((e)=>{fillDayEvents(e)});
 };
 dataCel.on("click", function () {
   var thisEl = $(this);
