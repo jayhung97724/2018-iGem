@@ -6,7 +6,7 @@ const filterByDivName = (div) => {
     return m.division == div;
   });
 }
-$.getJSON("./data/memberDetail.json", (file) => {
+$.getJSON("./data/NCHU-iGEM-Team.json", (file) => {
   members = file;
   console.log(members);
   var Divisions = $.unique(members.map(function (d) {
@@ -35,22 +35,23 @@ $.getJSON("./data/memberDetail.json", (file) => {
       Dcard = $(cardTemplate).clone();
       // console.log(Dcard);
       // Dcard = card.clone();
-      cardImage = Dcard.find('.image');
+      cardImage = Dcard.find('.image').find('img');
       cardContent1 = Dcard.find('#content1');
       cardName = cardContent1.find('#name');
       cardMajor = cardContent1.find('.meta a');
-      cardDescription = cardContent1.find('description');
+      cardDescription = cardContent1.find('.description');
       cardContent2 = Dcard.find('#content2');
       cardWork = cardContent2.find('.description');
       cardBottom = Dcard.find('.bottom');
 
+      cardImage.attr('src', m.image)
       cardName.text(m.name_EN);
       cardMajor.text(m.major);
       cardWork.text(m.work);
-      // cardDescription.text(m.description);
-      content = ', and I come from a beautiful island called "Formosa", Taiwan! '
-      cardBottom.attr('data-content', 'Hello, I am ' + m.name_EN + content);
-      Dcard.removeAttr('id');
+      cardDescription.text(m.short);
+      content = m.more;
+      cardBottom.attr('data-content', content);
+      Dcard.attr('id', m.id);
       // console.log(Dcard);
       divCards.append(Dcard);
     });

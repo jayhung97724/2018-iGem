@@ -1,3 +1,14 @@
+#HQ_page .button:hover {
+    background-color: unset;
+    color: unset;
+}
+#HQ_page .button {
+    min-width: unset;
+    max-width: unset;
+    border: unset;
+    color: unset;
+    background-color: unset;
+}
 .card {
   margin-right: 34px!important;
   margin-left: 34px!important;
@@ -6,14 +17,14 @@
   margin: 0!important;
 }
 .card .button {
-  background: #6bd2c1;
+  background: #6bd2c1!important;
 }
 .card .button:hover {
-  background-color: #baebe3;
+  background-color: #baebe3!important;
 }
 #bannerImg {
-  box-shadow: 3px 5px 14px 0px #cdcdcd;
-  margin-top: 20px;
+  box-shadow: 3px 5px 14px 0px #cdcdcd!important;
+  margin-top: 20px!important;
 }
 @media only screen and (max-width: 767px) {
   .card {
@@ -21,6 +32,6 @@
     margin-left: unset!important;
   }
   .cards {
-    justify-content: center;
+    justify-content: center!important;
   }
 }

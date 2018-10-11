@@ -13,7 +13,7 @@
   /* width: 100vw; */
 }
 .ui.menu .item {
-  padding: 0.98em 0.98em;
+  padding: 0.98em 0.58em;
 }
 .tablet.computer.row {
   padding: unset;
