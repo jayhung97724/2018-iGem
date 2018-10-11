@@ -1,0 +1,5 @@
+{{NCHU_Taichung/navbar}}
+<html>
+
+</html>
+{{NCHU_Taichung/footer}}

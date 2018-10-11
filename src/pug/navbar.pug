@@ -5,42 +5,47 @@
       //- |         NCHU Taichung
     a.item(href='http://2018.igem.org/Team:NCHU_Taichung') Home
     .ui.dropdown.item
-      | Team 
-      i.dropdown.icon
-      .menu
-        a.item(href='./member2.html') Members
-        a.item(href='#') Attributions
-        a.item(href='#') Collaboration
-        a.item(href='#') Sponsers
-    .ui.dropdown.item
       | Project
       i.dropdown.icon
       .menu
         a.item(href='#') Description
-        a.item(href='#') Design
-        a.item(href='#') Experiments
-        a.item(href='#') Results
-        a.item(href='#') Improve
-        a.item(href='#') Safety
         .item
           i.dropdown.icon
-          | Parts
-          .menu
-            a.item(href='#') Over
-            a.item(href='#') Basic
-            a.item(href='#') Compo
-            a.item(href='#') Collection
-            a.item(href='#') Improve
-    a.item(href='./notebook.html') Notebook 
+          | Background
+          .menu#submenu
+            a.item(href='#') Endophytes
+            a.item(href='#') Phytoremediation
+        a.item(href='#') Design
+        a.item(href='#') Model
+        a.item(href='#') Result
+        a.item(href='#') Demonstrate
+    .ui.dropdown.item
+      | Parts
+      i.dropdown.icon
+      .menu
+        a.item(href='#') Overview
+        a.item(href='#') Improve
+        a.item(href='#') Basic
+        a.item(href='#') Composite
     .ui.dropdown.item
       | Human Practice
       i.dropdown.icon
       .menu
-        a.item(href='#') Human Practices Silver
-        a.item(href='#') Integrated Human Practices
+        a.item(href='#') Integrated
         a.item(href='#') Engagement
         a.item(href='#') Entrepreneurship 
-        a.item(href='#') Applied Design (Product Design)
+    .ui.dropdown.item
+      | Lab
+      i.dropdown.icon
+      .menu
+        a.item(href='./notebook') Notebook
+        a.item(href='#') Protocol
+        a.item(href='#') Safety
+    .ui.dropdown.item
+      i.trophy.icon
+      .menu
+        a.item(href='#') Medals
+        a.item(href='#') prizes
   //- sidebar ------------------------
   .ui.text.container.mobile.only.row#sidebar
     a.item(href='./index.html')
@@ -50,44 +55,48 @@
         i.ui.bars.icon
 //- sidemenu -------------------
 .ui.inverted.menu#sidemenu
-  a.item(href='./index.html') Home
-  .ui.dropdown.item
-    | Team 
-    i.dropdown.icon
-    .menu
-      a.item(href='./member.html') Members
-      a.item(href='#') Attributions
-      a.item(href='#') Collaboration
-      a.item(href='#') Sponsers
+  a.item(href='http://2018.igem.org/Team:NCHU_Taichung') Home
   .ui.dropdown.item
     | Project
     i.dropdown.icon
     .menu
       a.item(href='#') Description
-      a.item(href='#') Design
-      a.item(href='#') Experiments
-      a.item(href='#') Results
-      a.item(href='#') Improve
-      a.item(href='#') Safety
       .item
         i.dropdown.icon
-        | Parts
-        //- ! submenu here
+        | Background
         .menu#submenu
-          a.item(href='#') Over
-          a.item(href='#') Basic
-          a.item(href='#') Compo
-          a.item(href='#') Collection
-          a.item(href='#') Improve
-  a.item(href='#') Notebook 
+          a.item(href='#') Endophytes
+          a.item(href='#') Phytoremediation
+      a.item(href='#') Design
+      a.item(href='#') Model
+      a.item(href='#') Result
+      a.item(href='#') Demonstrate
+  .ui.dropdown.item
+    | Parts
+    i.dropdown.icon
+    .menu
+      a.item(href='#') Overview
+      a.item(href='#') Improve
+      a.item(href='#') Basic
+      a.item(href='#') Composite
   .ui.dropdown.item
     | Human Practice
     i.dropdown.icon
     .menu
-      a.item(href='#') Human Practices Silver
-      a.item(href='#') Integrated Human Practices
+      a.item(href='#') Integrated
       a.item(href='#') Engagement
       a.item(href='#') Entrepreneurship 
-      a.item(href='#') Applied Design (Product Design)
+  .ui.dropdown.item
+    | Lab
+    i.dropdown.icon
+    .menu
+      a.item(href='./notebook') Notebook
+      a.item(href='#') Protocol
+      a.item(href='#') Safety
+  .ui.dropdown.item
+    i.trophy.icon
+    .menu
+      a.item(href='#') Medals
+      a.item(href='#') prizes
 
 
