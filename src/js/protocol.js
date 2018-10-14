@@ -8,16 +8,15 @@ $.getJSON("./data/protocols.json", (file) => {
     let template = $(templateString);
     title = template.siblings('.title');
     content = template.siblings('.content');
-    span = title.find('span');
-    span.text(ptc.title);
+    ptitle = title.find('span');
+    ptitle.append($.parseHTML(ptc.title));
+    $accordion.append(title);
     olTag = content.find('ol');
     _content = "";
     ptc.content.forEach(step => {
       _content = _content + `<li>${step}</li>`
     });
     olTag.append(_content);
-    
-    $accordion.append(title);
     $accordion.append(content);
   })
   $('.accordion').accordion('open', 0);
