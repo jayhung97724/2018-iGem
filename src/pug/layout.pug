@@ -6,16 +6,13 @@ html(lang='en')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='author', content='YoYoHung')
-    //- link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css')
-    //- link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
-    //- link(rel='stylesheet', href='./style/loader.css')
-    //- link(rel='stylesheet', href='./style/semantic.min.css')
-    link(href="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/style/semantic.min.css&action=raw&ctype=text/css" type="text/css" rel="stylesheet")
-    link(href="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/style/main.css&action=raw&ctype=text/css" type="text/css" rel="stylesheet")
-    link(href="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/style/member.css&amp;action=raw&amp;ctype=text/css"
-    type="text/css" rel="stylesheet")
-    //- link(rel='stylesheet', href='./style/main.css')
-    //- link(rel='stylesheet', href='./style/member.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css')
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
+    //- link(href="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/style/semantic.min.css&action=raw&ctype=text/css" type="text/css" rel="stylesheet")
+    //- link(href="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/style/main.css&action=raw&ctype=text/css" type="text/css" rel="stylesheet")
+    //- link(href="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/style/member.css&amp;action=raw&amp;ctype=text/css" type="text/css" rel="stylesheet")
+    link(rel='stylesheet', href='./style/main.css')
+    link(rel='stylesheet', href='./style/member.css')
     //- link(rel='stylesheet', href='./style/footer.css')
     block css
 
@@ -27,11 +24,12 @@ html(lang='en')
       .ui.segments
         block content
     include ./footer.pug
-    //- script(src='./js/jquery.min.js')  
     script(src="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/js/jquery.min.js&action=raw&ctype=text/javascript")
-    script(src="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/js/semantic.min.js&action=raw&ctype=text/javascript")
-    //- script(src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js')
-    //- script(src='./js/main.js')
+    script(src="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/js/semantic.min.js&action=raw&ctype=text/javascript") 
     script(src="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/js/main.js&action=raw&ctype=text/javascript")
     script(src="http://2018.igem.org/wiki/index.php?title=Team:NCHU_Taichung/js/member.js&action=raw&ctype=text/javascript")
+    //- script(src="/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")
+    script(async='', src='http://2018.igem.org/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML')
+    script(type="text/x-mathjax-config").
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
     block js
