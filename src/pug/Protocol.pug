@@ -1,0 +1,14 @@
+extend layout
+block content
+  .ui.raised.segment#mainbox
+    h1.ui.hidden.header
+    .ui.huge.dividing.header#top Protocol
+    .segment#padding
+      .ui.styled.accordion
+        template#articleTemplate
+          .title
+            i.dropdown.icon
+            span title1
+          .content
+            .imgBox
+              img.myImage(src='https://i.imgur.com/sVkLdNZ.jpg') 

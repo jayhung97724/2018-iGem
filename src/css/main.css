@@ -9,7 +9,7 @@
   width: 100px;
 }
 .fixed.menu {
-  padding-top: 10px;
+  padding-top: 15px;
   /* width: 100vw; */
 }
 .ui.menu .item {
@@ -86,7 +86,7 @@ body {
   padding-top: 160px!important;
 }
 .sticky.fixed.top {
-  margin-top: 60px!important;
+  margin-top: 65px!important;
 }
 
 
