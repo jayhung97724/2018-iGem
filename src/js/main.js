@@ -30,4 +30,6 @@ $(document).ready(function () {
 
     };
   $menuItem.on('click', handler.activate);
+  $('.accordion').accordion('open', 0);
+  $('#articleTemplate').remove();
 });

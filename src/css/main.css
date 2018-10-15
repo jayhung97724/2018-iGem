@@ -89,6 +89,40 @@ body {
   margin-top: 65px!important;
 }
 
+.ui.styled.accordion {
+  margin-left: auto;
+  margin-right: auto;
+}
+.six.wide.column {
+  display: flex!important;
+  align-items: center;
+}
+.clmnImg {
+  box-shadow: 3px 5px 14px 0px #cdcdcd!important;
+  border-radius: .21428571rem;
+}
+#labelImg {
+  min-height: 100%;
+  text-align: center;
+}
+
+/* --- main bg --- */
+
+#mainbg {
+  display: block;
+  width: 100vw;
+  height: 160vw;
+  background-image: url(../img/indexbg.png) ;
+  background-size: cover;
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+
+
+
+
+
 
 /* Remove heritage css */
 #top_title {

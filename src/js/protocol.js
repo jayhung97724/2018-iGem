@@ -20,4 +20,5 @@ $.getJSON("./data/protocols.json", (file) => {
     $accordion.append(content);
   })
   $('.accordion').accordion('open', 0);
+  $('#articleTemplate').remove()
 });
