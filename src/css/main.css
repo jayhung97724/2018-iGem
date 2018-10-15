@@ -105,6 +105,14 @@ body {
   min-height: 100%;
   text-align: center;
 }
+.ribbon.label {
+  z-index: 2;
+}
+.divided.grid {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 
 /* --- main bg --- */
 
