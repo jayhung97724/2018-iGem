@@ -112,7 +112,9 @@ body {
   margin-left: 0px;
   margin-right: 0px;
 }
-
+.grid > .row > .column {
+  display: inline-table!important;
+}
 
 /* --- main bg --- */
 

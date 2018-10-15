@@ -1,110 +1,678 @@
 {{NCHU_Taichung/navbar}}
 <html>
 <div class="ui main text container">
-    <div class="ui segments">
-      <div class="ui raised segment" id="mainbox">
-        <h1 class="ui hidden header"></h1>
-        <h1 class="ui huge header" id="top">Conferences & Meet ups</h1>
-        <p>It is always great to have communication with other teams all over the world. By sharing ideas, discussing with each
-          other, better approach often came up. Particularly, it is our pleasure to hold 2018 Asia-Pacific Conference and
-          get to meet other teams in Taiwan, China, and Japan.</p>
-        <div class="segment">
-          <h1 class="ui hidden header"></h1>
-          <h2 class="ui left aligned dividing header">2018 6th Asia-Pacific iGEM Conference</h2>
-          <div class="ui stackable grid container">
-            <div class="row">
-              <div class="sixteen wide column">
-                <p>The conference was held from July 30th, 2018 to August 2nd, 2018. During the four-day event, more than 20
-                  teams got to have communication and presentation just as the iGEM Conference used to do. It is not only
-                  a simulation event before the world conference in October, but also a great chance for teams to build up
-                  collaborations and make friends with all the iGEMers.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="ui image" id="labelImg">
-                <div class="ui teal ribbon large label">Held by NCHU_Taichung</div>
-                <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/4/48/T--NCHU_Taichung--hp_intro_5.jpeg">
-                <div class="ui bottom attached label">2018 6th Asia-Pacific iGEM Conference</div>
-              </div>
-            </div>
+  <div class="ui segments">
+    <div class="ui raised segment" id="mainbox">
+      <h1 class="ui hidden header"></h1>
+      <div class="ui huge dividing header" id="top">Protocol</div>
+      <div class="segment">
+        <div class="ui styled accordion">
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <span>Cultivation of
+              <i>Arabidopsis thaliana</i> seeds</span>
           </div>
-          <h2 class="ui left aligned dividing header">Conferences & Meet ups in Taiwan</h2>
-          <div class="ui stackable grid container">
-            <div class="row">
-              <div class="seven wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/5/5a/T--NCHU_Taichung--hp_conf_1.jpeg">
-                  <div class="ui bottom attached label">2017 iGEM Taiwan Conference</div>
-                </div>
-              </div>
-              <div class="six wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/9/99/T--NCHU_Taichung--hp_conf_2.jpeg">
-                  <div class="ui bottom attached label">2017 5th iGEM Asia-Pacific Conference</div>
-                </div>
-              </div>
-              <div class="three wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/7/7d/T--NCHU_Taichung--hp_conf_3.jpeg">
-                  <div class="ui bottom attached label">iGEM Team Communication</div>
-                </div>
-              </div>
-            </div>
+          <div class="content">
+            <ol class="ui ordered list transition hidden">
+              <li>Use 3D Micro Shaker to shake seeds for 15 minutes with 20%/ bleach +1/1000 SDS (Tween20)</li>
+              <li>Remove bleach completely and add sterile water to wash three times</li>
+              <li>Storage at 4℃ for 4-7 days for Seed vernalization.</li>
+              <li>Pipette 100 μl of water and seeds to solid 1/2 M.S medium.</li>
+              <li>Seeds should be cultivated into plates in enough spaces to grow (Each plate should have 15-18 seeds)</li>
+              <li>Tilt plates and remove excess water</li>
+              <li>Seal the plates with parafilm</li>
+              <li>Put plates to growth chamber at constant temperature of 25 ± 2 ° C with 16/8 h light and dark cycle</li>
+            </ol>
           </div>
-          <h2 class="ui left aligned dividing header">Conferences & Meet ups in Other Regions</h2>
-          <div class="ui stackable grid container">
-            <div class="row">
-              <div class="nine wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/8/89/T--NCHU_Taichung--hp_conf_4.jpeg">
-                  <div class="ui bottom attached label">Huazhong iGEM Conference</div>
-                </div>
-              </div>
-              <div class="four wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/2/21/T--NCHU_Taichung--hp_conf_5.jpeg">
-                  <div class="ui bottom attached label">European Meet Up iGEM 2018(Munich)</div>
-                </div>
-              </div>
-              <div class="three wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/2/24/T--NCHU_Taichung--hp_conf_6.jpeg">
-                  <div class="ui bottom attached label">iGEM Team Communication (Stockholm iGEM)</div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="seven wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/1/14/T--NCHU_Taichung--hp_conf_7.jpeg">
-                  <div class="ui bottom attached label">The Fifth Conference of China iGEMer Community (CCiC)</div>
-                </div>
-              </div>
-              <div class="six wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/d/d7/T--NCHU_Taichung--hp_conf_8.jpeg">
-                  <div class="ui bottom attached label">The Fifth Conference of China iGEMer Community (CCiC)</div>
-                </div>
-              </div>
-              <div class="three wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/8/8d/T--NCHU_Taichung--hp_conf_9.jpeg">
-                  <div class="ui bottom attached label">iGEM Team Communication (Hebrew iGEM)</div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="sixteen wide column">
-                <div class="ui image" id="labelImg">
-                  <img class="ui image clmnImg" src="http://2018.igem.org/wiki/images/a/a5/T--NCHU_Taichung--hp_conf_10.jpeg">
-                  <div class="ui bottom attached label">German Meet Up (Marburg)</div>
-                </div>
-              </div>
-            </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <span>Inoculation</span>
+          </div>
+          <div class="content">
+            <ol class="ui ordered list">
+              <li>take 8-day plants</li>
+              <li>choose healthy plants which have complete roots </li>
+              <li>Holding plant hypocotyls with tweezers and put plants in the cover of plate</li>
+              <li>Add proper amount bacteria of OD600=0.4 to cover whole roots and sink 1minutes.</li>
+              <li>Wash excess bacteria by sterile water for 1-2 second then put plants into new solid M.S medium. (For the test
+                of how long the bacteria could stay in plants and the test of phenotype after inoculating)</li>
+              <li>Seal the plates with parafilm </li>
+              <li>For endophytic test, do further experiment</li>
+            </ol>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <span>Endophytic test</span>
+          </div>
+          <div class="content">
+            <ol class="ui ordered list">
+              <li>sterilized tools: tweezers(label A、B)、dd
+                <span class="MathJax_Preview" style="color: inherit;"></span>
+                <span class="MathJax" id="MathJax-Element-1-Frame" style="">
+                  <nobr>
+                    <span class="math" id="MathJax-Span-1" role="math" style="width: 2.262em; display: inline-block;">
+                      <span style="display: inline-block; position: relative; width: 1.896em; height: 0px; font-size: 117%;">
+                        <span style="position: absolute; clip: rect(1.59em, 1000em, 2.75em, -999.997em); top: -2.439em; left: 0.003em;">
+                          <span class="mrow" id="MathJax-Span-2">
+                            <span class="msubsup" id="MathJax-Span-3">
+                              <span style="display: inline-block; position: relative; width: 1.163em; height: 0px;">
+                                <span style="position: absolute; clip: rect(3.178em, 1000em, 4.216em, -999.997em); top: -4.026em; left: 0.003em;">
+                                  <span class="mi" id="MathJax-Span-4" style="font-family: STIXGeneral-Italic;">H
+                                    <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.064em;"></span>
+                                  </span>
+                                  <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                </span>
+                                <span style="position: absolute; top: -3.904em; left: 0.736em;">
+                                  <span class="mn" id="MathJax-Span-5" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">2</span>
+                                  <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                </span>
+                              </span>
+                            </span>
+                            <span class="mi" id="MathJax-Span-6" style="font-family: STIXGeneral-Italic;">O</span>
+                          </span>
+                          <span style="display: inline-block; width: 0px; height: 2.445em;"></span>
+                        </span>
+                      </span>
+                      <span style="border-left: 0.004em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.075em; vertical-align: -0.211em;"></span>
+                    </span>
+                  </nobr>
+                </span>
+                <script type="math/tex" id="MathJax-Element-1">H_2O</script>、Glass Bead、Disposable pestle</li>
+              <li>prepared three plates of sterile water(label 1、2、3) and a plate of 10%bleach and a plate of 75% ethanol.</li>
+              <li>Before picking plants, sterile tweezers by alcohol burner or fuego basic then wait it to cool down.</li>
+              <li>Put 3 inoculated plants into 10% bleach at the same time, timing 1 minutes
+                <br>Use tweezer A to take plants out the put back to 75% ethanol, timing 30 seconds
+                <br>Use tweezer A to take plants out the put back to sterile water1, timing 30 seconds
+                <br>Use tweezer B to take plants out the put back to sterile water2, timing 30 seconds
+                <br>Use tweezer B to take plants out the put back to sterile water3, timing 30 seconds
+                <br>Use tweezer B to take plants out the put to labeled eppendorf
+                <br>Repeat above-mentioned steps for different OD600 but the same species.
+                <br>Take 100ul of sterile water3 to LB medium as the control group</li>
+              <li>renew sterile water1、2、3、ethanol and bleach for different bacteria species experiment</li>
+              <li>After grinding plants by disposable pestle, use 200ul pipette to drop 100ul to LB medium</li>
+              <li>Pour glass beads then shake horizontally to make fluid spread</li>
+              <li>Pour glass beads out to waste bottle.</li>
+              <li>Growth bacteria in proper temperature and wait 12-16 hours.</li>
+            </ol>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <span>Cloning (3A and Gibson Assembly)</span>
+          </div>
+          <div class="content">
+            <ol class="ui ordered list transition hidden">
+              <li>PCR
+                <div class="ui hidden header"></div>
+                <table class="ui celled table">
+                  <tbody>
+                    <tr>
+                      <td class="eight wide">KOD plus polymerase</td>
+                      <td class="eight wide">1 μl</td>
+                    </tr>
+                    <tr>
+                      <td>dNTP</td>
+                      <td>2 μl</td>
+                    </tr>
+                    <tr>
+                      <td>10XBuffer</td>
+                      <td>2 μl</td>
+                    </tr>
+                    <tr>
+                      <td>Forward Primer</td>
+                      <td>1 μl</td>
+                    </tr>
+                    <tr>
+                      <td>Reverse Primer</td>
+                      <td>1 μl</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="MathJax_Preview" style="color: inherit;"></span>
+                        <span class="MathJax" id="MathJax-Element-2-Frame" style="">
+                          <nobr>
+                            <span class="math" id="MathJax-Span-7" role="math" style="width: 3.605em; display: inline-block;">
+                              <span style="display: inline-block; position: relative; width: 3.056em; height: 0px; font-size: 117%;">
+                                <span style="position: absolute; clip: rect(1.59em, 1000em, 2.811em, -999.997em); top: -2.439em; left: 0.003em;">
+                                  <span class="mrow" id="MathJax-Span-8">
+                                    <span class="mi" id="MathJax-Span-9" style="font-family: STIXGeneral-Italic;">M
+                                      <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.064em;"></span>
+                                    </span>
+                                    <span class="mi" id="MathJax-Span-10" style="font-family: STIXGeneral-Italic;">g</span>
+                                    <span class="mi" id="MathJax-Span-11" style="font-family: STIXGeneral-Italic;">S
+                                      <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                    </span>
+                                    <span class="msubsup" id="MathJax-Span-12">
+                                      <span style="display: inline-block; position: relative; width: 1.163em; height: 0px;">
+                                        <span style="position: absolute; clip: rect(3.178em, 1000em, 4.216em, -999.997em); top: -4.026em; left: 0.003em;">
+                                          <span class="mi" id="MathJax-Span-13" style="font-family: STIXGeneral-Italic;">O</span>
+                                          <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                        </span>
+                                        <span style="position: absolute; top: -3.904em; left: 0.736em;">
+                                          <span class="mn" id="MathJax-Span-14" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">4</span>
+                                          <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                  </span>
+                                  <span style="display: inline-block; width: 0px; height: 2.445em;"></span>
+                                </span>
+                              </span>
+                              <span style="border-left: 0.004em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.146em; vertical-align: -0.282em;"></span>
+                            </span>
+                          </nobr>
+                        </span>
+                        <script type="math/tex" id="MathJax-Element-2">MgSO_4</script> </td>
+                      <td>2 μl</td>
+                    </tr>
+                    <tr>
+                      <td>DNA</td>
+                      <td>1 μl </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="MathJax_Preview" style="color: inherit;"></span>
+                        <span class="MathJax" id="MathJax-Element-3-Frame" style="">
+                          <nobr>
+                            <span class="math" id="MathJax-Span-15" role="math" style="width: 2.262em; display: inline-block;">
+                              <span style="display: inline-block; position: relative; width: 1.896em; height: 0px; font-size: 117%;">
+                                <span style="position: absolute; clip: rect(1.59em, 1000em, 2.75em, -999.997em); top: -2.439em; left: 0.003em;">
+                                  <span class="mrow" id="MathJax-Span-16">
+                                    <span class="msubsup" id="MathJax-Span-17">
+                                      <span style="display: inline-block; position: relative; width: 1.163em; height: 0px;">
+                                        <span style="position: absolute; clip: rect(3.178em, 1000em, 4.216em, -999.997em); top: -4.026em; left: 0.003em;">
+                                          <span class="mi" id="MathJax-Span-18" style="font-family: STIXGeneral-Italic;">H
+                                            <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.064em;"></span>
+                                          </span>
+                                          <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                        </span>
+                                        <span style="position: absolute; top: -3.904em; left: 0.736em;">
+                                          <span class="mn" id="MathJax-Span-19" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">2</span>
+                                          <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                    <span class="mi" id="MathJax-Span-20" style="font-family: STIXGeneral-Italic;">O</span>
+                                  </span>
+                                  <span style="display: inline-block; width: 0px; height: 2.445em;"></span>
+                                </span>
+                              </span>
+                              <span style="border-left: 0.004em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.075em; vertical-align: -0.211em;"></span>
+                            </span>
+                          </nobr>
+                        </span>
+                        <script type="math/tex" id="MathJax-Element-3">H_2O</script>
+                      </td>
+                      <td>10 μl</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="ui hidden header"></div>
+              </li>
+              <li>Restriction Enzyme Digestion
+                <div class="ui hidden header"></div>
+                <p>Restriction enzyme : EcoRI , XbaI , SpeI , PStI </p>
+                <table class="ui celled table">
+                  <tbody>
+                    <tr>
+                      <td>NEB restriction enzyme</td>
+                      <td rowspan="2">(1μl enzyme can react with 1 μg DNA)</td>
+                    </tr>
+                    <tr>
+                      <td>DNA</td>
+                    </tr>
+                    <tr>
+                      <td>10x Cutsmart buffer</td>
+                      <td>2 μl</td>
+                    </tr>
+                    <tr>
+                      <td>Add
+                        <span class="MathJax_Preview" style="color: inherit;"></span>
+                        <span class="MathJax" id="MathJax-Element-4-Frame" style="">
+                          <nobr>
+                            <span class="math" id="MathJax-Span-21" role="math" style="width: 2.262em; display: inline-block;">
+                              <span style="display: inline-block; position: relative; width: 1.896em; height: 0px; font-size: 117%;">
+                                <span style="position: absolute; clip: rect(1.59em, 1000em, 2.75em, -999.997em); top: -2.439em; left: 0.003em;">
+                                  <span class="mrow" id="MathJax-Span-22">
+                                    <span class="msubsup" id="MathJax-Span-23">
+                                      <span style="display: inline-block; position: relative; width: 1.163em; height: 0px;">
+                                        <span style="position: absolute; clip: rect(3.178em, 1000em, 4.216em, -999.997em); top: -4.026em; left: 0.003em;">
+                                          <span class="mi" id="MathJax-Span-24" style="font-family: STIXGeneral-Italic;">H
+                                            <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.064em;"></span>
+                                          </span>
+                                          <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                        </span>
+                                        <span style="position: absolute; top: -3.904em; left: 0.736em;">
+                                          <span class="mn" id="MathJax-Span-25" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">2</span>
+                                          <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                    <span class="mi" id="MathJax-Span-26" style="font-family: STIXGeneral-Italic;">O</span>
+                                  </span>
+                                  <span style="display: inline-block; width: 0px; height: 2.445em;"></span>
+                                </span>
+                              </span>
+                              <span style="border-left: 0.004em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.075em; vertical-align: -0.211em;"></span>
+                            </span>
+                          </nobr>
+                        </span>
+                        <script type="math/tex" id="MathJax-Element-4">H_2O</script> </td>
+                      <td>to 20 μl</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="ui hidden header"></div>
+              </li>
+              <li>Gel extraction THERMO Gel extraction
+                <ol>
+                  <li>Excise gel slice containing the DNA fragment using a clean scalpel or razor blade</li>
+                  <li>Put into Eppendorf (remember to keep the gel weight in 100-200mg)</li>
+                  <li>Add equal volume of binding buffer , vortex </li>
+                  <li>Incubate it until all the gel is dissolved in the buffer</li>
+                  <li>Transfer all the solution to the purification column then centrifuge for 15,000rpm, 1min</li>
+                  <li>Discard the flow-through and add 100μl binding buffer then centrifuge for 15,000rpm, 1min</li>
+                  <li>Discard the flow through and add 700μl wash buffer then centrifuge for 15,000rpm, 1min</li>
+                  <li>Discard the flow through and repeat (7) process</li>
+                  <li>Discard the flow through and centrifuge for 15,000rpm, 7 min</li>
+                  <li>Transfer the purification column to the 1.5ml eppendorf</li>
+                  <li>Incubate it in 50-55℃ for 10 min</li>
+                  <li>Add 20μl
+                    <span class="MathJax_Preview" style="color: inherit;"></span>
+                    <span class="MathJax" id="MathJax-Element-5-Frame" style="">
+                      <nobr>
+                        <span class="math" id="MathJax-Span-27" role="math" style="width: 2.262em; display: inline-block;">
+                          <span style="display: inline-block; position: relative; width: 1.896em; height: 0px; font-size: 117%;">
+                            <span style="position: absolute; clip: rect(1.59em, 1000em, 2.75em, -999.997em); top: -2.439em; left: 0.003em;">
+                              <span class="mrow" id="MathJax-Span-28">
+                                <span class="msubsup" id="MathJax-Span-29">
+                                  <span style="display: inline-block; position: relative; width: 1.163em; height: 0px;">
+                                    <span style="position: absolute; clip: rect(3.178em, 1000em, 4.216em, -999.997em); top: -4.026em; left: 0.003em;">
+                                      <span class="mi" id="MathJax-Span-30" style="font-family: STIXGeneral-Italic;">H
+                                        <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.064em;"></span>
+                                      </span>
+                                      <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                    </span>
+                                    <span style="position: absolute; top: -3.904em; left: 0.736em;">
+                                      <span class="mn" id="MathJax-Span-31" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">2</span>
+                                      <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                    </span>
+                                  </span>
+                                </span>
+                                <span class="mi" id="MathJax-Span-32" style="font-family: STIXGeneral-Italic;">O</span>
+                              </span>
+                              <span style="display: inline-block; width: 0px; height: 2.445em;"></span>
+                            </span>
+                          </span>
+                          <span style="border-left: 0.004em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.075em; vertical-align: -0.211em;"></span>
+                        </span>
+                      </nobr>
+                    </span>
+                    <script type="math/tex" id="MathJax-Element-5">H_2O</script> (prewarm) or Elution buffer into the center of the column and wait for 2-3 min</li>
+                  <li>Centrifuge for 15,000rpm, 7 min</li>
+                  <li>Use nanodrop to quantify the nucleic acids’ concentration </li>
+                </ol>
+                <div class="ui hidden header"></div>
+              </li>
+              <li>DNA clean up (after cutting, if the residue is in 5-8bp you can use DNA clean up) Genemark DNA clean up kit
+                <ol>
+                  <li>Add 3 volumes of binding buffer, mix completely</li>
+                  <li>Transfer the solution into purification column, centrifuge for 1 min in top speed</li>
+                  <li>Discard the flow-through and add 700μl of wash solution, centrifuge for 1 min in top speed</li>
+                  <li>Discard the flow-through and repeat step (3)</li>
+                  <li>Centrifuge for 7 min in top speed</li>
+                  <li>Incubate in 50-55℃</li>
+                  <li>Add rewarmed
+                    <span class="MathJax_Preview" style="color: inherit;"></span>
+                    <span class="MathJax" id="MathJax-Element-6-Frame" style="">
+                      <nobr>
+                        <span class="math" id="MathJax-Span-33" role="math" style="width: 2.262em; display: inline-block;">
+                          <span style="display: inline-block; position: relative; width: 1.896em; height: 0px; font-size: 117%;">
+                            <span style="position: absolute; clip: rect(1.59em, 1000em, 2.75em, -999.997em); top: -2.439em; left: 0.003em;">
+                              <span class="mrow" id="MathJax-Span-34">
+                                <span class="msubsup" id="MathJax-Span-35">
+                                  <span style="display: inline-block; position: relative; width: 1.163em; height: 0px;">
+                                    <span style="position: absolute; clip: rect(3.178em, 1000em, 4.216em, -999.997em); top: -4.026em; left: 0.003em;">
+                                      <span class="mi" id="MathJax-Span-36" style="font-family: STIXGeneral-Italic;">H
+                                        <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.064em;"></span>
+                                      </span>
+                                      <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                    </span>
+                                    <span style="position: absolute; top: -3.904em; left: 0.736em;">
+                                      <span class="mn" id="MathJax-Span-37" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">2</span>
+                                      <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                    </span>
+                                  </span>
+                                </span>
+                                <span class="mi" id="MathJax-Span-38" style="font-family: STIXGeneral-Italic;">O</span>
+                              </span>
+                              <span style="display: inline-block; width: 0px; height: 2.445em;"></span>
+                            </span>
+                          </span>
+                          <span style="border-left: 0.004em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.075em; vertical-align: -0.211em;"></span>
+                        </span>
+                      </nobr>
+                    </span>
+                    <script type="math/tex" id="MathJax-Element-6">H_2O</script> or elution buffer into the center of the column, wait for 2-3 min</li>
+                  <li>Centrifuge for 7 min in top speed</li>
+                  <li>Use nanodrop to quantify the nucleic acids’ concentration</li>
+                </ol>
+                <div class="ui hidden header"></div>
+              </li>
+              <li>Ligation Promega T4 ligase
+                <ol>
+                  <li>Calcμlate the vector and insert ‘s ratio
+                    <span class="MathJax_Preview" style="color: inherit;"></span>
+                    <div class="MathJax_Display" style="text-align: center;">
+                      <span class="MathJax" id="MathJax-Element-7-Frame" style="">
+                        <nobr>
+                          <span class="math" id="MathJax-Span-39" role="math" style="width: 33.581em; display: inline-block;">
+                            <span style="display: inline-block; position: relative; width: 28.697em; height: 0px; font-size: 117%;">
+                              <span style="position: absolute; clip: rect(0.858em, 1000em, 3.544em, -999.997em); top: -2.439em; left: 0.003em;">
+                                <span class="mrow" id="MathJax-Span-40">
+                                  <span class="texatom" id="MathJax-Span-41">
+                                    <span class="mrow" id="MathJax-Span-42">
+                                      <span class="mfrac" id="MathJax-Span-43">
+                                        <span style="display: inline-block; position: relative; width: 22.469em; height: 0px; margin-right: 0.125em; margin-left: 0.125em;">
+                                          <span style="position: absolute; clip: rect(3.178em, 1000em, 4.399em, -999.997em); top: -4.698em; left: 50%; margin-left: -11.169em;">
+                                            <span class="mrow" id="MathJax-Span-44">
+                                              <span class="mi" id="MathJax-Span-45" style="font-family: STIXGeneral-Italic;">n</span>
+                                              <span class="mi" id="MathJax-Span-46" style="font-family: STIXGeneral-Italic;">g</span>
+                                              <span class="mtext" id="MathJax-Span-47" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-48" style="font-family: STIXGeneral-Italic;">o</span>
+                                              <span class="mi" id="MathJax-Span-49" style="font-family: STIXGeneral-Italic;">f
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.125em;"></span>
+                                              </span>
+                                              <span class="mtext" id="MathJax-Span-50" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-51" style="font-family: STIXGeneral-Italic;">v</span>
+                                              <span class="mi" id="MathJax-Span-52" style="font-family: STIXGeneral-Italic;">e</span>
+                                              <span class="mi" id="MathJax-Span-53" style="font-family: STIXGeneral-Italic;">c</span>
+                                              <span class="mi" id="MathJax-Span-54" style="font-family: STIXGeneral-Italic;">t
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-55" style="font-family: STIXGeneral-Italic;">o</span>
+                                              <span class="mi" id="MathJax-Span-56" style="font-family: STIXGeneral-Italic;">r
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mo" id="MathJax-Span-57" style="font-family: STIXGeneral-Regular; padding-left: 0.247em;">×</span>
+                                              <span class="mtext" id="MathJax-Span-58" style="font-family: STIXGeneral-Regular; padding-left: 0.247em;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-59" style="font-family: STIXGeneral-Italic;">k
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-60" style="font-family: STIXGeneral-Italic;">b</span>
+                                              <span class="mtext" id="MathJax-Span-61" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-62" style="font-family: STIXGeneral-Italic;">s</span>
+                                              <span class="mi" id="MathJax-Span-63" style="font-family: STIXGeneral-Italic;">i</span>
+                                              <span class="mi" id="MathJax-Span-64" style="font-family: STIXGeneral-Italic;">z</span>
+                                              <span class="mi" id="MathJax-Span-65" style="font-family: STIXGeneral-Italic;">e</span>
+                                              <span class="mtext" id="MathJax-Span-66" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-67" style="font-family: STIXGeneral-Italic;">o</span>
+                                              <span class="mi" id="MathJax-Span-68" style="font-family: STIXGeneral-Italic;">f
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.125em;"></span>
+                                              </span>
+                                              <span class="mtext" id="MathJax-Span-69" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-70" style="font-family: STIXGeneral-Italic;">i</span>
+                                              <span class="mi" id="MathJax-Span-71" style="font-family: STIXGeneral-Italic;">n</span>
+                                              <span class="mi" id="MathJax-Span-72" style="font-family: STIXGeneral-Italic;">s</span>
+                                              <span class="mi" id="MathJax-Span-73" style="font-family: STIXGeneral-Italic;">e</span>
+                                              <span class="mi" id="MathJax-Span-74" style="font-family: STIXGeneral-Italic;">r
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-75" style="font-family: STIXGeneral-Italic;">t
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mo" id="MathJax-Span-76" style="font-family: STIXGeneral-Regular; padding-left: 0.247em;">×</span>
+                                              <span class="mi" id="MathJax-Span-77" style="font-family: STIXGeneral-Italic; padding-left: 0.247em;">m</span>
+                                              <span class="mi" id="MathJax-Span-78" style="font-family: STIXGeneral-Italic;">o</span>
+                                              <span class="mi" id="MathJax-Span-79" style="font-family: STIXGeneral-Italic;">l
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-80" style="font-family: STIXGeneral-Italic;">a</span>
+                                              <span class="mi" id="MathJax-Span-81" style="font-family: STIXGeneral-Italic;">r
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mtext" id="MathJax-Span-82" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-83" style="font-family: STIXGeneral-Italic;">r
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-84" style="font-family: STIXGeneral-Italic;">a</span>
+                                              <span class="mi" id="MathJax-Span-85" style="font-family: STIXGeneral-Italic;">t
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-86" style="font-family: STIXGeneral-Italic;">i</span>
+                                              <span class="mi" id="MathJax-Span-87" style="font-family: STIXGeneral-Italic;">o</span>
+                                              <span class="mtext" id="MathJax-Span-88" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-89" style="font-family: STIXGeneral-Italic;">o</span>
+                                              <span class="mi" id="MathJax-Span-90" style="font-family: STIXGeneral-Italic;">f
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.125em;"></span>
+                                              </span>
+                                              <span class="mtext" id="MathJax-Span-91" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-92" style="font-family: STIXGeneral-Italic;">i</span>
+                                              <span class="mi" id="MathJax-Span-93" style="font-family: STIXGeneral-Italic;">n</span>
+                                              <span class="mi" id="MathJax-Span-94" style="font-family: STIXGeneral-Italic;">s</span>
+                                              <span class="mi" id="MathJax-Span-95" style="font-family: STIXGeneral-Italic;">e</span>
+                                              <span class="mi" id="MathJax-Span-96" style="font-family: STIXGeneral-Italic;">r
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-97" style="font-family: STIXGeneral-Italic;">t
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                            </span>
+                                            <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                          </span>
+                                          <span style="position: absolute; clip: rect(3.178em, 1000em, 4.399em, -999.997em); top: -3.355em; left: 50%; margin-left: -4.759em;">
+                                            <span class="mrow" id="MathJax-Span-98">
+                                              <span class="mi" id="MathJax-Span-99" style="font-family: STIXGeneral-Italic;">k
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-100" style="font-family: STIXGeneral-Italic;">b</span>
+                                              <span class="mtext" id="MathJax-Span-101" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-102" style="font-family: STIXGeneral-Italic;">s</span>
+                                              <span class="mi" id="MathJax-Span-103" style="font-family: STIXGeneral-Italic;">i</span>
+                                              <span class="mi" id="MathJax-Span-104" style="font-family: STIXGeneral-Italic;">z</span>
+                                              <span class="mi" id="MathJax-Span-105" style="font-family: STIXGeneral-Italic;">e</span>
+                                              <span class="mtext" id="MathJax-Span-106" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-107" style="font-family: STIXGeneral-Italic;">o</span>
+                                              <span class="mi" id="MathJax-Span-108" style="font-family: STIXGeneral-Italic;">f
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.125em;"></span>
+                                              </span>
+                                              <span class="mtext" id="MathJax-Span-109" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-110" style="font-family: STIXGeneral-Italic;">v</span>
+                                              <span class="mi" id="MathJax-Span-111" style="font-family: STIXGeneral-Italic;">e</span>
+                                              <span class="mi" id="MathJax-Span-112" style="font-family: STIXGeneral-Italic;">c</span>
+                                              <span class="mi" id="MathJax-Span-113" style="font-family: STIXGeneral-Italic;">t
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-114" style="font-family: STIXGeneral-Italic;">o</span>
+                                              <span class="mi" id="MathJax-Span-115" style="font-family: STIXGeneral-Italic;">r
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mtext" id="MathJax-Span-116" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                              <span class="mi" id="MathJax-Span-117" style="font-family: STIXGeneral-Italic;">v</span>
+                                              <span class="mi" id="MathJax-Span-118" style="font-family: STIXGeneral-Italic;">e</span>
+                                              <span class="mi" id="MathJax-Span-119" style="font-family: STIXGeneral-Italic;">c</span>
+                                              <span class="mi" id="MathJax-Span-120" style="font-family: STIXGeneral-Italic;">t
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                              <span class="mi" id="MathJax-Span-121" style="font-family: STIXGeneral-Italic;">o</span>
+                                              <span class="mi" id="MathJax-Span-122" style="font-family: STIXGeneral-Italic;">r
+                                                <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                              </span>
+                                            </span>
+                                            <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                          </span>
+                                          <span style="position: absolute; clip: rect(0.858em, 1000em, 1.285em, -999.997em); top: -1.34em; left: 0.003em;">
+                                            <span style="border-left: 22.469em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.25px; vertical-align: 0.003em;"></span>
+                                            <span style="display: inline-block; width: 0px; height: 1.102em;"></span>
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                  </span>
+                                  <span class="mo" id="MathJax-Span-123" style="font-family: STIXGeneral-Regular; padding-left: 0.308em;">=</span>
+                                  <span class="mi" id="MathJax-Span-124" style="font-family: STIXGeneral-Italic; padding-left: 0.308em;">n</span>
+                                  <span class="mi" id="MathJax-Span-125" style="font-family: STIXGeneral-Italic;">g</span>
+                                  <span class="mtext" id="MathJax-Span-126" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                  <span class="mi" id="MathJax-Span-127" style="font-family: STIXGeneral-Italic;">o</span>
+                                  <span class="mi" id="MathJax-Span-128" style="font-family: STIXGeneral-Italic;">f
+                                    <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.125em;"></span>
+                                  </span>
+                                  <span class="mtext" id="MathJax-Span-129" style="font-family: STIXGeneral-Regular;">&nbsp;</span>
+                                  <span class="mi" id="MathJax-Span-130" style="font-family: STIXGeneral-Italic;">i</span>
+                                  <span class="mi" id="MathJax-Span-131" style="font-family: STIXGeneral-Italic;">n</span>
+                                  <span class="mi" id="MathJax-Span-132" style="font-family: STIXGeneral-Italic;">s</span>
+                                  <span class="mi" id="MathJax-Span-133" style="font-family: STIXGeneral-Italic;">e</span>
+                                  <span class="mi" id="MathJax-Span-134" style="font-family: STIXGeneral-Italic;">r
+                                    <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                  </span>
+                                  <span class="mi" id="MathJax-Span-135" style="font-family: STIXGeneral-Italic;">t
+                                    <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span>
+                                  </span>
+                                </span>
+                                <span style="display: inline-block; width: 0px; height: 2.445em;"></span>
+                              </span>
+                            </span>
+                            <span style="border-left: 0.004em solid; display: inline-block; overflow: hidden; width: 0px; height: 2.789em; vertical-align: -1.139em;"></span>
+                          </span>
+                        </nobr>
+                      </span>
+                    </div>
+                    <script type="math/tex; mode=display" id="MathJax-Element-7">{ng\ of\ vector\times\ kb\ size\ of\ insert\times molar\ ratio\ of\ insert\over kb\ size\ of\ vector\ vector} = ng\ of\ insert</script>vector : insert = 1 : 3 is quite optimal</li>
+                  <li>Add 10X buffer</li>
+                  <li>Add T4 ligase</li>
+                  <li>Add
+                    <span class="MathJax_Preview" style="color: inherit;"></span>
+                    <span class="MathJax" id="MathJax-Element-8-Frame" style="">
+                      <nobr>
+                        <span class="math" id="MathJax-Span-136" role="math" style="width: 2.262em; display: inline-block;">
+                          <span style="display: inline-block; position: relative; width: 1.896em; height: 0px; font-size: 117%;">
+                            <span style="position: absolute; clip: rect(1.59em, 1000em, 2.75em, -999.997em); top: -2.439em; left: 0.003em;">
+                              <span class="mrow" id="MathJax-Span-137">
+                                <span class="msubsup" id="MathJax-Span-138">
+                                  <span style="display: inline-block; position: relative; width: 1.163em; height: 0px;">
+                                    <span style="position: absolute; clip: rect(3.178em, 1000em, 4.216em, -999.997em); top: -4.026em; left: 0.003em;">
+                                      <span class="mi" id="MathJax-Span-139" style="font-family: STIXGeneral-Italic;">H
+                                        <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.064em;"></span>
+                                      </span>
+                                      <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                    </span>
+                                    <span style="position: absolute; top: -3.904em; left: 0.736em;">
+                                      <span class="mn" id="MathJax-Span-140" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">2</span>
+                                      <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                    </span>
+                                  </span>
+                                </span>
+                                <span class="mi" id="MathJax-Span-141" style="font-family: STIXGeneral-Italic;">O</span>
+                              </span>
+                              <span style="display: inline-block; width: 0px; height: 2.445em;"></span>
+                            </span>
+                          </span>
+                          <span style="border-left: 0.004em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.075em; vertical-align: -0.211em;"></span>
+                        </span>
+                      </nobr>
+                    </span>
+                    <script type="math/tex" id="MathJax-Element-8">H_2O</script> till 20μl in total volume</li>
+                  <li>Put it in 4℃ overnight or 22℃ for 3 hr</li>
+                </ol>
+                <div class="ui hidden header"></div>
+              </li>
+              <li>Transformation Use DH5alpha E.coli comercial competent cell
+                <ol>
+                  <li>Add 10μl DNA into 40 μl competent cell </li>
+                  <li>Put it on the ice for 20-30min</li>
+                  <li>42℃ heat shock</li>
+                  <li>Put it back onto the ice for 3 min</li>
+                  <li>Add 250 SOC medium and 37℃ incubate for 1 hr</li>
+                  <li>Plate all of the transformation and equally distribute it onto a 10 cm LB agar plate containing the appropriate
+                    antibiotic</li>
+                  <li>37℃ incubate overnight</li>
+                </ol>
+                <div class="ui hidden header"></div>
+              </li>
+              <li>Gibson assembly
+                <ol>
+                  <li>2–3 Fragment Assembly DNA 0.02-0.5 pmols, Gibson Assembly Master Mix 10μl, Add
+                    <span class="MathJax_Preview"
+                      style="color: inherit;"></span>
+                    <span class="MathJax" id="MathJax-Element-9-Frame" style="">
+                      <nobr>
+                        <span class="math" id="MathJax-Span-142" role="math" style="width: 2.262em; display: inline-block;">
+                          <span style="display: inline-block; position: relative; width: 1.896em; height: 0px; font-size: 117%;">
+                            <span style="position: absolute; clip: rect(1.59em, 1000em, 2.75em, -999.997em); top: -2.439em; left: 0.003em;">
+                              <span class="mrow" id="MathJax-Span-143">
+                                <span class="msubsup" id="MathJax-Span-144">
+                                  <span style="display: inline-block; position: relative; width: 1.163em; height: 0px;">
+                                    <span style="position: absolute; clip: rect(3.178em, 1000em, 4.216em, -999.997em); top: -4.026em; left: 0.003em;">
+                                      <span class="mi" id="MathJax-Span-145" style="font-family: STIXGeneral-Italic;">H
+                                        <span style="display: inline-block; overflow: hidden; height: 1px; width: 0.064em;"></span>
+                                      </span>
+                                      <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                    </span>
+                                    <span style="position: absolute; top: -3.904em; left: 0.736em;">
+                                      <span class="mn" id="MathJax-Span-146" style="font-size: 70.7%; font-family: STIXGeneral-Regular;">2</span>
+                                      <span style="display: inline-block; width: 0px; height: 4.032em;"></span>
+                                    </span>
+                                  </span>
+                                </span>
+                                <span class="mi" id="MathJax-Span-147" style="font-family: STIXGeneral-Italic;">O</span>
+                              </span>
+                              <span style="display: inline-block; width: 0px; height: 2.445em;"></span>
+                            </span>
+                          </span>
+                          <span style="border-left: 0.004em solid; display: inline-block; overflow: hidden; width: 0px; height: 1.075em; vertical-align: -0.211em;"></span>
+                        </span>
+                      </nobr>
+                    </span>
+                    <script type="math/tex" id="MathJax-Element-9">H_2O</script> to 20μl in total volume </li>
+                  <li>Incubate in 50℃ for 15 min when 2-3 fragment assembly, store on ice or in -20℃ for transformation</li>
+                </ol>
+              </li>
+            </ol>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <span>Protein Preparation and Extraction</span>
+          </div>
+          <div class="content">
+            <ol class="ui ordered list transition hidden">
+              <li>overnight culture of recombinant strains was inoculated into 500 mL of fresh LB medium at 37°C, 200 rpm</li>
+              <li>Until the optical density at 600 nm was 0.8 to 1.0, 1 mM IPTG was added, and the culture was allowed to grow
+                for another 3 to 12 h.</li>
+              <li>500 mL cells were centrifuged (11,000 x g, 4 °C and 15 min).</li>
+              <li>The pellet was washed twice with (50mM Tris-Hcl , 0.3M Nacl pH 7.4), and centrifuged at 10000 x g, 4 °C for
+                10 min.</li>
+              <li>The cells were then re-suspended in 30 mL of the same buffer, and maintained at 0 °C for sonication.</li>
+              <li>Unbroken cells and cell wall materials were removed by centrifugation at 22000 x g, 4°C for 30 min</li>
+              <li>the supernatant was decanted and kept at 4 °C.</li>
+            </ol>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <span>protein purification(Immobilized Metal Affinity Chromatography)</span>
+          </div>
+          <div class="content">
+            <ol class="ui ordered list transition hidden">
+              <li>use the supernatant from protein preparation step for binding with cobalt column for 20 min</li>
+              <li>wash with wash buffer (50Mm Tris-Hcl, 0.3M Nacl pH7.4)</li>
+              <li>elut with elution buffer (50Mm Tris-Hcl, 0.3M Nacl , 0.5M imidazole pH7.4 )</li>
+              <li>run SDS-Page to check protein purity</li>
+            </ol>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <span>Medium</span>
+          </div>
+          <div class="content">
+            <ol class="ui ordered list">
+              <li>
+                <b>Solid M.S medium:</b>
+                <br>4.4g/L MS Murashige and skoog Basal Medium (store at 4° C fridge), 1.5 % Sucrose, and 0.8% agar, use HCl
+                or KOH to adjusted pH to 5.7. autoclaved at 120°C for 20 mins.</li>
+            </ol>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 </html>
 {{NCHU_Taichung/footer}}
