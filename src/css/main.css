@@ -122,14 +122,41 @@ body {
   display: block;
   width: 100vw;
   height: 160vw;
-  background-image: url(../img/indexbg.png) ;
+  background-image: url(http://2018.igem.org/wiki/images/0/08/T--NCHU_Taichung--indexbg.png) ;
   background-size: cover;
   -webkit-background-size: cover;
 	-moz-background-size: cover;
 }
 
-
-
+#mainbg > * {
+  /* border: solid; */
+}
+#mainbg > .grid {
+  height: 100%;
+}
+#mainbg > .grid > .row {
+  /* border: solid!important; */
+  align-items: center;
+}
+#paddtoprow {
+  height: 6.5%;
+}
+#first {
+  height: 23.5%;
+}
+#eq {
+  height: calc((100% - 35%) / 3);
+}
+#grandpa {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#degration {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 

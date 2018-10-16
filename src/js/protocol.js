@@ -27,7 +27,7 @@ let protocols = [
   {
     "title": "Endophytic test",
     "content": [
-      "sterilized tools: tweezers(label A、B)、dd\\(H_2O\\)、Glass Bead、Disposable pestle",
+      "sterilized tools: tweezers(label A、B)、ddH<sub>2</sub>O、Glass Bead、Disposable pestle",
       "prepared three plates of sterile water(label 1、2、3) and a plate of 10%bleach and a plate of 75% ethanol.",
       "Before picking plants, sterile tweezers by alcohol burner or fuego basic then wait it to cool down.",
       "Put 3 inoculated plants into 10% bleach at the same time, timing 1 minutes<br>Use tweezer A to take plants out the put back to 75% ethanol, timing 30 seconds<br>Use tweezer A to take plants out the put back to sterile water1, timing 30 seconds<br>Use tweezer B to take plants out the put back to sterile water2, timing 30 seconds<br>Use tweezer B to take plants out the put back to sterile water3, timing 30 seconds<br>Use tweezer B to take plants out the put to labeled eppendorf<br>Repeat above-mentioned steps for different OD600 but the same species.<br>Take 100ul of sterile water3 to LB medium as the control group",
@@ -41,13 +41,13 @@ let protocols = [
   {
     "title": "Cloning (3A and Gibson Assembly)",
     "content": [
-      "PCR<div class=\"ui hidden header\"></div><table class=\"ui celled table\"><tbody><tr><td class=\"eight wide\">KOD plus polymerase</td><td class=\"eight wide\">1 μl</td></tr><tr><td>dNTP</td><td>2 μl</td></tr><tr><td>10XBuffer</td><td>2 μl</td></tr><tr><td>Forward Primer</td><td>1 μl</td></tr><tr><td>Reverse Primer</td><td>1 μl</td></tr><tr><td>\\(MgSO_4\\) </td><td>2 μl</td></tr><tr><td>DNA</td><td>1 μl </td></tr><tr><td>\\(H_2O\\)</td><td>10 μl</td></tr></tbody></table><div class=\"ui hidden header\"></div>",
-      "Restriction Enzyme Digestion<div class=\"ui hidden header\"></div><p>Restriction enzyme : EcoRI , XbaI , SpeI , PStI </p><table class=\"ui celled table\"><tbody><tr><td>NEB restriction enzyme</td><td rowspan=\"2\">(1μl enzyme can react with 1 μg DNA)</td></tr><tr><td>DNA</td></tr><tr><td>10x Cutsmart buffer</td><td>2 μl</td></tr><tr><td>Add \\(H_2O\\)  </td><td>to 20 μl</td></tr></tbody></table><div class=\"ui hidden header\"></div>",
-      "Gel extraction THERMO Gel extraction<ol><li>Excise gel slice containing the DNA fragment using a clean scalpel or razor blade</li><li>Put into Eppendorf (remember to keep the gel weight in 100-200mg)</li><li>Add equal volume of binding buffer , vortex </li><li>Incubate it until all the gel is dissolved in the buffer</li><li>Transfer all the solution to the purification column then centrifuge for 15,000rpm, 1min</li><li>Discard the flow-through and add 100μl binding buffer then centrifuge for 15,000rpm, 1min</li><li>Discard the flow through and add 700μl wash buffer then centrifuge for 15,000rpm, 1min</li><li>Discard the flow through and repeat (7) process</li><li>Discard the flow through and centrifuge for 15,000rpm, 7 min</li><li>Transfer the purification column to the 1.5ml eppendorf</li><li>Incubate it in 50-55℃ for 10 min</li><li>Add 20μl \\(H_2O\\) (prewarm) or Elution buffer into the center of the column and wait for 2-3 min</li><li>Centrifuge for 15,000rpm, 7 min</li><li>Use nanodrop to quantify the nucleic acids’ concentration </li></ol><div class=\"ui hidden header\"></div>",
-      "DNA clean up (after cutting, if the residue is in 5-8bp you can use DNA clean up) Genemark DNA clean up kit<ol><li>Add 3 volumes of binding buffer, mix completely</li><li>Transfer the solution into purification column, centrifuge for 1 min in top speed</li><li>Discard the flow-through and add 700μl of wash solution, centrifuge for 1 min in top speed</li><li>Discard the flow-through and repeat step (3)</li><li>Centrifuge for 7 min in top speed</li><li>Incubate in 50-55℃</li><li>Add rewarmed \\(H_2O\\) or elution buffer into the center of the column, wait for 2-3 min</li><li>Centrifuge for 7 min in top speed</li><li>Use nanodrop to quantify the nucleic acids’ concentration</li></ol><div class=\"ui hidden header\"></div>",
-      "Ligation Promega T4 ligase<ol><li>Calcμlate the vector and insert ‘s ratio $${ng\\ of\\ vector\\times\\ kb\\ size\\ of\\ insert\\times molar\\ ratio\\ of\\ insert\\over kb\\ size\\ of\\ vector\\ vector} = ng\\ of\\ insert$$vector : insert = 1 : 3 is quite optimal</li><li>Add 10X buffer</li><li>Add T4 ligase</li><li>Add \\(H_2O\\) till 20μl in total volume</li><li>Put it in 4℃ overnight or 22℃ for 3 hr</li></ol><div class=\"ui hidden header\"></div>",
+      "PCR<div class=\"ui hidden header\"></div><table class=\"ui celled table\"><tbody><tr><td class=\"eight wide\">KOD plus polymerase</td><td class=\"eight wide\">1 μl</td></tr><tr><td>dNTP</td><td>2 μl</td></tr><tr><td>10XBuffer</td><td>2 μl</td></tr><tr><td>Forward Primer</td><td>1 μl</td></tr><tr><td>Reverse Primer</td><td>1 μl</td></tr><tr><td>MgSO<sub>4</sub> </td><td>2 μl</td></tr><tr><td>DNA</td><td>1 μl </td></tr><tr><td>H<sub>2</sub>O</td><td>10 μl</td></tr></tbody></table><div class=\"ui hidden header\"></div>",
+      "Restriction Enzyme Digestion<div class=\"ui hidden header\"></div><p>Restriction enzyme : EcoRI , XbaI , SpeI , PStI </p><table class=\"ui celled table\"><tbody><tr><td>NEB restriction enzyme</td><td rowspan=\"2\">(1μl enzyme can react with 1 μg DNA)</td></tr><tr><td>DNA</td></tr><tr><td>10x Cutsmart buffer</td><td>2 μl</td></tr><tr><td>Add H<sub>2</sub>O  </td><td>to 20 μl</td></tr></tbody></table><div class=\"ui hidden header\"></div>",
+      "Gel extraction THERMO Gel extraction<ol><li>Excise gel slice containing the DNA fragment using a clean scalpel or razor blade</li><li>Put into Eppendorf (remember to keep the gel weight in 100-200mg)</li><li>Add equal volume of binding buffer , vortex </li><li>Incubate it until all the gel is dissolved in the buffer</li><li>Transfer all the solution to the purification column then centrifuge for 15,000rpm, 1min</li><li>Discard the flow-through and add 100μl binding buffer then centrifuge for 15,000rpm, 1min</li><li>Discard the flow through and add 700μl wash buffer then centrifuge for 15,000rpm, 1min</li><li>Discard the flow through and repeat (7) process</li><li>Discard the flow through and centrifuge for 15,000rpm, 7 min</li><li>Transfer the purification column to the 1.5ml eppendorf</li><li>Incubate it in 50-55℃ for 10 min</li><li>Add 20μl H<sub>2</sub>O (prewarm) or Elution buffer into the center of the column and wait for 2-3 min</li><li>Centrifuge for 15,000rpm, 7 min</li><li>Use nanodrop to quantify the nucleic acids’ concentration </li></ol><div class=\"ui hidden header\"></div>",
+      "DNA clean up (after cutting, if the residue is in 5-8bp you can use DNA clean up) Genemark DNA clean up kit<ol><li>Add 3 volumes of binding buffer, mix completely</li><li>Transfer the solution into purification column, centrifuge for 1 min in top speed</li><li>Discard the flow-through and add 700μl of wash solution, centrifuge for 1 min in top speed</li><li>Discard the flow-through and repeat step (3)</li><li>Centrifuge for 7 min in top speed</li><li>Incubate in 50-55℃</li><li>Add rewarmed H<sub>2</sub>O or elution buffer into the center of the column, wait for 2-3 min</li><li>Centrifuge for 7 min in top speed</li><li>Use nanodrop to quantify the nucleic acids’ concentration</li></ol><div class=\"ui hidden header\"></div>",
+      "Ligation Promega T4 ligase<ol><li>Calcμlate the vector and insert ‘s ratio $${ng\\ of\\ vector\\times\\ kb\\ size\\ of\\ insert\\times molar\\ ratio\\ of\\ insert\\over kb\\ size\\ of\\ vector\\ vector} = ng\\ of\\ insert$$vector : insert = 1 : 3 is quite optimal</li><li>Add 10X buffer</li><li>Add T4 ligase</li><li>Add H<sub>2</sub>O till 20μl in total volume</li><li>Put it in 4℃ overnight or 22℃ for 3 hr</li></ol><div class=\"ui hidden header\"></div>",
       "Transformation Use DH5alpha E.coli comercial competent cell <ol><li>Add 10μl DNA into 40 μl competent cell </li><li>Put it on the ice for 20-30min</li><li>42℃ heat shock</li><li>Put it back onto the ice for 3 min</li><li>Add 250 SOC medium and 37℃ incubate for 1 hr</li><li>Plate all of the transformation and equally distribute it onto a 10 cm LB agar plate containing the appropriate antibiotic</li><li>37℃ incubate overnight</li></ol><div class=\"ui hidden header\"></div>",
-      "Gibson assembly<ol> <li>2–3 Fragment Assembly DNA 0.02-0.5 pmols, Gibson Assembly Master Mix 10μl, Add \\(H_2O\\)  to 20μl in total volume </li><li>Incubate in 50℃ for 15 min when 2-3 fragment assembly, store on ice or in -20℃ for transformation</li></ol>"
+      "Gibson assembly<ol> <li>2–3 Fragment Assembly DNA 0.02-0.5 pmols, Gibson Assembly Master Mix 10μl, Add H<sub>2</sub>O  to 20μl in total volume </li><li>Incubate in 50℃ for 15 min when 2-3 fragment assembly, store on ice or in -20℃ for transformation</li></ol>"
     ]
   },
   {
@@ -72,9 +72,32 @@ let protocols = [
     ]
   },
   {
+    "title": "Inoculation of Chrysopogon zizanioides (vetiver plant) with endophytic bacteria",
+    "content": [
+      "Transplant vetiver plants from field to greenhouse and grow them under same settings for 30 days.",
+      "Inoculate vetiver plants by soaking their roots in inocula which were prepared with the isolate Burkholderia cenocepacia 869T2 for 10 minutes.  The inocula were grown under selective conditions at 37 °C on a rotary shaker to an approximate A600nm value of 1.0.",
+      "Plant inoculated vetiver plants in pot with TCDD free matrix (control plates).",
+      "Likewise, plant inoculated vetiver in the pot with  matrix contain TCDD (TCDD solution was added into the vetiver plants potting matrix and adjust the concentration of TCDD in the matrix to 100 ng-TEQ/ kg.)",
+      "Vetiver plants were grown in greenhouse under same settings for 30 days.",
+      "Harvest these vetiver plants after 30 days. "
+    ]
+  },
+  {
+    "title": "The Growth of Recombinant Bacteria in TCDD Medium",
+    "content": [
+      "Incubate the recombinant bacteria 12~18 hours without TCDD.",
+      "Prepare for the treatment medium (low concentration  of King's B medium) with antibiotics, surfactant Tween 80 (0.1%(v/v)), and different concentrations of TCDD (0ppm, 0.05ppm, 0.1ppm, 0.2ppm) in the 96 wells microplate.",
+      "The fresh cultures of recombinant strains are added into the microplate with the OD600nm value 0.05.",
+      "The cultures are incubated at 37°C, double orbital shaking in fast speed, and monitor by measuring the OD600nm.",
+      "After 2~3 hours, the OD600nm value is about 0.6, add 1mM IPTG if needed."
+    ]
+  },
+  {
     "title": "Medium",
     "content": [
-      "<b>Solid M.S medium:</b><br>4.4g/L MS Murashige and skoog Basal Medium (store at 4° C fridge), 1.5 % Sucrose, and 0.8% agar, use HCl or KOH to adjusted pH to 5.7. autoclaved at 120°C for 20 mins."
+      "<b>Solid M.S medium:</b><br>4.4g/L MS Murashige and skoog Basal Medium (store at 4° C fridge), 1.5 % Sucrose, and 0.8% agar, use HCl or KOH to adjusted pH to 5.7. autoclaved at 120°C for 20 mins.",
+      "<b>Low concentration of King's B medium:</b><br>Peptone: 6g/L; K<sub>2</sub>HPO<sub>4</sub>: 1.5g/L; Glycerol: 7.5 ml/L; 5ml/L 1M MgSO<sub>4</sub>",
+      "<b>LB medium:</b><br>NaCl: 10g/L; Tryptone: 10g/L; Yeast Extract: 5g/L"
     ]
   }
 ];

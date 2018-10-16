@@ -161,7 +161,7 @@
                             </span>
                           </nobr>
                         </span>
-                        <script type="math/tex" id="MathJax-Element-2">MgSO_4</script> </td>
+                        <script type="math/tex" id="MathJax-Element-2">MgSO<sub>4</sub></script> </td>
                       <td>2 μl</td>
                     </tr>
                     <tr>

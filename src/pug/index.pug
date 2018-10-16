@@ -1,4 +1,25 @@
 extends layout
 block mainbg
+  h1.ui.hidden.header
+  h1.ui.hidden.header
   #mainbg
-    //- img.ui.fluid.image(src="./img/indexbg.png")
+    .ui.center.aligned.grid
+      .equal.width.row#paddtoprow
+        .center.aligned.column
+        .center.aligned.column
+      .equal.width.row#first
+        .center.aligned.column
+        .center.aligned.column
+          img.ui.fluid.circular.image#grandpa(src='http://2018.igem.org/wiki/images/2/23/T--NCHU_Taichung--grandpa.gif')
+      .equal.width.row#eq
+        .center.aligned.column
+          img.ui.fluid.image#degration(src='http://2018.igem.org/wiki/images/3/37/T--NCHU_Taichung--degration.gif')
+        .center.aligned.column
+      .equal.width.row#eq
+        .center.aligned.column
+        .center.aligned.column
+          img.ui.fluid.circular.image#grandpa(src='http://2018.igem.org/wiki/images/e/eb/T--NCHU_Taichung--dioxin.gif')
+      .equal.width.row#eq
+        .center.aligned.column
+          img.ui.fluid.circular.image#grandpa(src='http://2018.igem.org/wiki/images/e/ea/T--NCHU_Taichung--shovel..gif')
+        .center.aligned.column
