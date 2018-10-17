@@ -50,9 +50,9 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  #top_menu_14 {
+  /* #top_menu_14 {
     display: none;
-  }
+  } */
   #logo {
     padding-top: none;
     width: 100px;

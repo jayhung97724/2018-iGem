@@ -2,9 +2,6 @@ extends layout
 block css
   link(rel="stylesheet", href="./style/notebook.css")
 block mainbg
-  .ui.page.dimmer
-    .content
-      .center.ui.big.header Click on the date cell to see daily event :)
   h1.ui.hidden.header
   script.
     // fill the month table with column headings
@@ -113,6 +110,22 @@ block mainbg
           fill_table("October", 31, "10");
           fill_table("November", 30, "11");
           fill_table("December", 31, "12");
-
+  //- .c-event__creator.c-calendar__style.js-event__creator
+    a.o-btn.js-event__close(href='javascript:;')
+      | CLOSE 
+      span.fa.fa-close
+    form#addEvent
+      input(placeholder='Event name', type='text', name='name')
+      input(type='date', name='date')
+      textarea(placeholder='Notes', name='notes', cols='30', rows='10')
+      select(name='tags')
+        option(value='event') event
+        option(value='important') important
+        option(value='birthday') birthday
+        option(value='festivity') festivity
+    br
+    a.o-btn.js-event__save(href='javascript:;')
+      | SAVE 
+      span.fa.fa-save
 block js
-  script(src="./js/notebook.js")
+  script(src="./js/nbold.js")

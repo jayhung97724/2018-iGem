@@ -118,7 +118,7 @@ function filterEventByDate(date) {
     return event.date == date;
   });
 }
-$.getJSON("./data/eventDetail.json", (file) => {
+$.getJSON("./data/eventDetailold.json", (file) => {
   eventList = file;
   findUniqueDateNaddClass();
   console.log(eventList[1]);
@@ -141,9 +141,9 @@ function fillDayEvents(e) {
   var thisNotes = e.note;
   var thisImage = (e.image == '') ? '' : '<br><br><img src="' + e.image + '">';
   console.log(thisImage);
-  // var thisImportant = (e.work == 'phyto');
-  // var thisBirthday = ((e.work == 'toxicology') || (e.work == 'Interlab'));
-  // var thisFestivity = (e.work == 'micro');
+  // var thisImportant = e.hasClass("event--important");
+  // var thisBirthday = e.hasClass("event--birthday");
+  // var thisFestivity = e.hasClass("event--festivity");
   var thisEvent = true;
   var thisParagraph = thisNotes + thisImage;
   console.log(thisParagraph);
@@ -195,14 +195,14 @@ function fillEventSidebar(self) {
   var thisDay = self.attr("data-day");
   var thisName = self.attr("data-name");
   var thisNotes = self.attr("data-notes");
-  // var thisImportant = self.hasClass("event--important");
-  // var thisBirthday = self.hasClass("event--birthday");
-  // var thisFestivity = self.hasClass("event--festivity");
+  var thisImportant = self.hasClass("event--important");
+  var thisBirthday = self.hasClass("event--birthday");
+  var thisFestivity = self.hasClass("event--festivity");
   var thisEvent = self.hasClass("event");
 
   eventsOnDay = filterEventByDate(thisDay);
   console.log(eventsOnDay);
-  eventsOnDay.forEach((e)=>{fillDayEvents(e)});
+  eventsOnDay.forEach((e) => { fillDayEvents(e) });
 };
 dataCel.on("click", function () {
   var thisEl = $(this);

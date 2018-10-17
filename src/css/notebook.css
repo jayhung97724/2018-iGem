@@ -362,7 +362,7 @@ header > .wrapper a {
   top: 50%;
   left: 50%;
   width: 40px;
-  height: 40px;
+  height: 40px!important;
   line-height: 40px;
   background: #9bad8e;
   transform: translate(-50%, -50%);
@@ -452,6 +452,12 @@ header > .wrapper a {
   padding-left: 20px;
   margin: 20px 0;
 }
+.c-aside__event > span > img {
+  display: -webkit-box;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill-available;
+}
 .c-aside__event:before {
   position: absolute;
   display: block;
@@ -472,71 +478,6 @@ header > .wrapper a {
 .c-aside__event--important:before {
   background-color: #F57170;
 }
-/* .c-event__creator {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  max-width: 500px;
-  max-height: 470px;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  padding: 20px;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  transform: translate(-50%, -50%) scale(0.9);
-  -webkit-transform: translate(-50%, -50%) scale(0.9);
-} */
-.c-event__creator.long {
-  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.c-event__creator.elastic {
-  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -webkit-transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.c-event__creator form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.c-event__creator.isVisible {
-  transform: translate(-50%, -50%) scale(1);
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  opacity: 1;
-  visibility: visible;
-}
-input,
-textarea,
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  border-radius: 0px;
-  padding: 0;
-  border-width: 0;
-  resize: none;
-  margin: 10px 0;
-  padding: 10px;
-  width: 100%;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-input::-ms-expand,
-textarea::-ms-expand,
-select::-ms-expand {
-  display: none;
-}
-input {
-  height: 40px;
+.dimmer.transition.visible.active {
+  display: flex!important;
 }

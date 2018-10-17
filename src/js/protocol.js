@@ -118,6 +118,20 @@ let protocols = [
     ]
   },
   {
+    "title": "MTT assay",
+    "content": [
+      "Plate 1.5x10 4 cells per well in a 96-well plate and incubate with the appropriate stimulus for the desired time (usually 6-48 hours).",
+      "Remove medium and wash cells with PBS.",
+      "Add 100 µL of desired drugs or compound in each well.",
+      "Incubate for 6 to 12 hours at 37°C.",
+      "Remove the compound and add MTT made up in medium to a final concentration of 0.5 mg/mL.",
+      "Incubate for 2 to 6 hours at 37°C, until intracellular purple formazan crystals are visible under microscope.",
+      "Remove MTT and add DMSO.",
+      "Incubate at room temperature, until cells have lysed and purple crystals have dissolved.",
+      "Measure absorbance at 595 nanometers."
+    ]
+  },
+  {
     "title": "Medium",
     "content": [
       "<b>Solid M.S medium:</b><br>4.4g/L MS Murashige and skoog Basal Medium (store at 4° C fridge), 1.5 % Sucrose, and 0.8% agar, use HCl or KOH to adjusted pH to 5.7. autoclaved at 120°C for 20 mins.",

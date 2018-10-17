@@ -141,40 +141,40 @@ function fillDayEvents(e) {
   var thisNotes = e.note;
   var thisImage = (e.image == '') ? '' : '<br><br><img src="' + e.image + '">';
   console.log(thisImage);
-  // var thisImportant = (e.work == 'phyto');
-  // var thisBirthday = ((e.work == 'toxicology') || (e.work == 'Interlab'));
-  // var thisFestivity = (e.work == 'micro');
+  var thisImportant = (e.work == 'phyto');
+  var thisBirthday = ((e.work == 'toxicology') || (e.work == 'Interlab'));
+  var thisFestivity = (e.work == 'micro');
   var thisEvent = true;
   var thisParagraph = thisNotes + thisImage;
   console.log(thisParagraph);
   switch (true) {
-    // case thisImportant:
-    //   $(".c-aside__eventList").append(
-    //     "<p class='c-aside__event c-aside__event--important'>" +
-    //     thisName +
-    //     ":<br><span> • " +
-    //     thisParagraph +
-    //     "</span></p>"
-    //   );
-    //   break;
-    // case thisBirthday:
-    //   $(".c-aside__eventList").append(
-    //     "<p class='c-aside__event c-aside__event--birthday'>" +
-    //     thisName +
-    //     ":<br><span> • " +
-    //     thisParagraph +
-    //     "</span></p>"
-    //   );
-    //   break;
-    // case thisFestivity:
-    //   $(".c-aside__eventList").append(
-    //     "<p class='c-aside__event c-aside__event--festivity'>" +
-    //     thisName +
-    //     ":<br><span> • " +
-    //     thisParagraph +
-    //     "</span></p>"
-    //   );
-    //   break;
+    case thisImportant:
+      $(".c-aside__eventList").append(
+        "<p class='c-aside__event c-aside__event--important'>" +
+        thisName +
+        ":<br><span> • " +
+        thisParagraph +
+        "</span></p>"
+      );
+      break;
+    case thisBirthday:
+      $(".c-aside__eventList").append(
+        "<p class='c-aside__event c-aside__event--birthday'>" +
+        thisName +
+        ":<br><span> • " +
+        thisParagraph +
+        "</span></p>"
+      );
+      break;
+    case thisFestivity:
+      $(".c-aside__eventList").append(
+        "<p class='c-aside__event c-aside__event--festivity'>" +
+        thisName +
+        ":<br><span> • " +
+        thisParagraph +
+        "</span></p>"
+      );
+      break;
     case thisEvent:
       $(".c-aside__eventList").append(
         "<p class='c-aside__event'>" +
@@ -195,14 +195,14 @@ function fillEventSidebar(self) {
   var thisDay = self.attr("data-day");
   var thisName = self.attr("data-name");
   var thisNotes = self.attr("data-notes");
-  // var thisImportant = self.hasClass("event--important");
-  // var thisBirthday = self.hasClass("event--birthday");
-  // var thisFestivity = self.hasClass("event--festivity");
+  var thisImportant = self.hasClass("event--important");
+  var thisBirthday = self.hasClass("event--birthday");
+  var thisFestivity = self.hasClass("event--festivity");
   var thisEvent = self.hasClass("event");
 
   eventsOnDay = filterEventByDate(thisDay);
   console.log(eventsOnDay);
-  eventsOnDay.forEach((e)=>{fillDayEvents(e)});
+  eventsOnDay.forEach((e) => { fillDayEvents(e) });
 };
 dataCel.on("click", function () {
   var thisEl = $(this);
