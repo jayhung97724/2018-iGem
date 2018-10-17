@@ -1,0 +1,111 @@
+extend layout
+block content
+  .ui.raised.segment#mainbox
+    h1.ui.hidden.header
+    .ui.huge.header#top Parts Overview
+    h2.ui.header Parts
+    p.longP Our part collection includes TonB-dependent receptor DNA sequence, 2-haloacid dehalogenase DNA sequence, Laccase DNA sequence, and also the intermediate part of 2-haloacid dehalogenase + Laccase and the final combination part of three genes. In order to let the gene can be expressed in endophyte, we bought a shuttle vector from addgene and replace the ori and also the resistance gene, which can also be seen in the basic part. 
+    h3.ui.dividing.header Basic Parts
+    ol.ui.ordered.list
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546001">BBa_K2546001:</a> This part is coding for 2-haloacid dehalogenase, which can cleavage carbon-halogen bonds of halogenated compounds
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546004">BBa_K2546004:</a> This part is a shuttle vector with red fluorescence protein (RFP). It is composed by the Ori of pMP4657 and BBa_J364007 in pSB1C3. 
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546007">BBa_K2546007:</a> This part is a shuttle vector with red fluorescence protein (RFP). It is composed by the Ori of pMP4657 and BBa_J364007 in pSB1C3. 
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546008">BBa_K2546008:</a> This part is a shuttle vector with green fluorescence protein (GFP). It is composed by the Ori of pBBR1 and BBa_J364007 in pSB1C3. 
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546010">BBa_K2546010:</a> This part is coding for TonB-dependent receptor, which can actively transport the ferric ion carrier, siderophore, which is similar in structure with dioxin.
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546011">BBa_K2546011:</a> This part is coding for Laccase, which is related to lignin degradation.
+    h3.ui.dividing.header Intermediate Parts
+    ol.ui.ordered.list
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546002">BBa_K2546002:</a> This part is the combination of BBa_K2546001 and BBa_K2546011 which contain ribosome binding site.
+    h3.ui.dividing.header Composite Parts
+    ol.ui.ordered.list
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546005">BBa_K2546005:</a> This part is the promoter circuit of BBa_K2546002.
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546006">BBa_K2546006:</a> This part is the combination of BBa_K2546012 and BBa_K2546002 ,which is our ultimate goal to let three gene be expressed in one circuit.
+      li(value="・") <a href="http://parts.igem.org/Part:BBa_K2546012">BBa_K2546012:</a> This part is the promoter circuit of BBa_K2546010.
+    h1.ui.hidden.header
+    table.ui.selectable.teal.inverted.celled.small.table
+      thead
+        tr
+          th.three.wide Name
+          th.three.wide Type
+          th.four.wide Description
+          th.three.wide Designer
+          th.three.wide Length
+      tbody
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546000">BBa_K2546000</a> 
+          td Coding 
+          td dfgdsfghfdsghfdsghgdsghgfdsghnfgdsgsf 
+          td Tsu-Wang Sun 
+          td  
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546001">BBa_K2546001</a> 
+          td Coding 
+          td 2-haloacid dehalogenase(HAD) 
+          td Tsu-Wang Sun 
+          td 780
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546002">BBa_K2546002</a> 
+          td Coding 
+          td 2-haloacid dehalogenase plus laccase with robosome binding site 
+          td Tsu-Wang Sun 
+          td 2408
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546003">BBa_K2546003</a> 
+          td Coding 
+          td p+HL 
+          td Tsu-Wang Sun 
+          td 6
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546004">BBa_K2546004</a> 
+          td Coding 
+          td pME60C shuttle vector 
+          td Tsu-Wang Sun 
+          td 6489
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546005">BBa_K2546005</a> 
+          td Coding 
+          td 2-haloacid dehalogenase plus laccase with promoter and ribosome binding site 
+          td Tsu-Wang Sun 
+          td 2451
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546006">BBa_K2546006</a> 
+          td Coding 
+          td TonB + 2-haloacid dehalogenase + laccase 
+          td Tsu-Wang Sun 
+          td 4721
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546007">BBa_K2546007</a> 
+          td Plasmid_Backbone 
+          td cm 4657 
+          td Tsu-Wang Sun 
+          td 770
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546008">BBa_K2546008</a> 
+          td Plasmid_Backbone 
+          td pME60C2 shuttle vector 
+          td Tsu-Wang Sun 
+          td 5491
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546009">BBa_K2546009</a> 
+          td Plasmid_Backbone 
+          td kan bbrf2 
+          td Tsu-Wang Sun 
+          td 4218
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546010">BBa_K2546010</a> 
+          td Coding 
+          td TonB-dependent receptor (TonB) 
+          td Tsu-Wang Sun 
+          td 2244
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546011">BBa_K2546011</a> 
+          td Coding 
+          td Laccase (TLcc) 
+          td Tsu-Wang Sun 
+          td 1584
+        tr
+          td.selectable <a href="http://parts.igem.org/Part:BBa_K2546012">BBa_K2546012</a> 
+          td Coding 
+          td TonB with promoter and ribosome binding site 
+          td Yu-Hsi Lin 
+          td 2305        
