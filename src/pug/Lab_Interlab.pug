@@ -1,0 +1,390 @@
+extends layout
+block content
+  .ui.left.very.close.rail#railMenu
+    .ui.sticky
+      .ui.secondary.vertical.pointing.menu
+        a.active.item(href='#Introduction')
+          | Introduction
+        a.item(href='#Protocol')
+          | Protocol
+        a.item(href='#Day1')
+          | Day 1
+        a.item(href='#Day2')
+          | Day 2
+        a.item(href='#Day3')
+          | Day 3
+        a.item(href='#Day4')
+          | Day 4
+        a.item(href='#Day5')
+          | Day 5
+        a.item(href='#Result')
+          | Result
+  .ui.raised.segment#mainbox
+    .ui.sticky#mobileRailMenu
+      .ui.secondary.vertical.pointing.menu
+        a.active.item(href='#Introduction')
+          | Introduction
+        a.item(href='#Protocol')
+          | Protocol
+        a.item(href='#Day1')
+          | Day 1
+        a.item(href='#Day2')
+          | Day 2
+        a.item(href='#Day3')
+          | Day 3
+        a.item(href='#Day4')
+          | Day 4
+        a.item(href='#Day5')
+          | Day 5
+        a.item(href='#Result')
+          | Result
+    h1.ui.hidden.header
+    .ui.huge.header#top Interlab
+    h2.ui.dividing.header#Introduction Introduction
+    p Reliable and standardized units are key point in all disciplines. It just like a language for everyone to understand the experimental data well. Fortunately, we do have one, that is fluorescence!! fluorescence is very useful in revealing genetic function and modification. We also can use fluorescence as a marker protein, and then we can digitalize our experimental data. However, fluorescence data from different people can have diversity. So, the iGEM’s Fifth International Interlaboratory Study is to test if we can decrease the difference by normalizing to colony-forming units (CFUs) instead of OD?
+    //--------------
+    h2.ui.dividing.header#Protocol Protocol
+    //------------------
+    h3.ui.dividing.header#Day1 Day 1
+    h4.ui.dividing.header Calibration 1:​ OD​600​ Reference point - LUDOX Protocol
+    h5.ui.header Materials:
+    p 
+      | 1ml LUDOX CL-X, dd H
+      sub 2
+      | O, 96 well plate, black with clear flat bottom preferred
+    h5.ui.header Method:
+    ol.ui.ordered.list  
+      li Add 100 μl LUDOX into wells A1, B1, C1, D1.  
+      li 
+        | Add 100 μl of dd H
+        sub 2
+        | O into wells A2, B2, C2, D2.  
+      li Measure absorbance at 600 nm of all samples in the measurement mode you plan to use for cell measurements.
+      li Record the data in the table below or in your notebook.
+      li Import data into Excel sheet provided. (​OD600 reference point tab​)
+    .ui.hidden.header
+    //--------------------
+    h4.ui.dividing.header Calibration 2:​ Particle Standard Curve - Microsphere Protocol
+    h5.ui.header Method:
+    h6.ui.header Prepare Microsphere Stock Solution:
+    ol.ui.ordered.list
+      li “Silica Beads” from the InterLab test kit and vortex vigorously for 30 seconds.
+      li Immediately pipet 96 μL microspheres into a 1.5 mL Eppendorf tube.
+      li 
+        | Add 904 μL of dd H
+        sub 2
+        | O to the microspheres. 
+      li Vortex well. This is your Microsphere Stock Solution.
+    h6.ui.header Prepare the serial dilution of Microspheres:
+    ol.ui.ordered.list
+      li 
+        | Add 100 μl of dd H
+        sub 2
+        | O​ into wells A2, B2, C2, D2....A12, B12, C12, D12. 
+      li Vortex the tube containing the stock solution of microspheres vigorously for 10 seconds.
+      li Immediately add 200 μl​ ​of microspheres stock​ ​solution into A1.
+      li Transfer 100 μl of microsphere stock solution from A1 into A2. 
+      li Mix A2 by pipetting up and down 3x and transfer 100 μl into A3…
+      li Mix A3 by pipetting up and down 3x and transfer 100 μl into A4... 
+      li Mix A4 by pipetting up and down 3x and transfer 100 μl into A5... 
+      li Mix A5 by pipetting up and down 3x and transfer 100 μl into A6... 
+      li Mix A6 by pipetting up and down 3x and transfer 100 μl into A7... 
+      li Mix A7 by pipetting up and down 3x and transfer 100 μl into A8...
+      li Mix A8 by pipetting up and down 3x and transfer 100 μl into A9... 
+      li Mix A9 by pipetting up and down 3x and transfer 100 μl into A10... 
+      li Mix A10 by pipetting up and down 3x and transfer 100 μl into A11... 
+      li Mix A11 by pipetting up and down 3x and transfer 100 μl into ​liquid waste.
+      li Repeat dilution series for rows B, C, D.
+    h6.ui.header Particle Standard Curve  
+    ol.ui.ordered.list
+      li Measure Abs​600​ of all samples in instrument.
+      li Record the data in your notebook.
+      li Import data into Excel sheet provided (​particle standard curve tab​)
+    .ui.hidden.header
+    //--------------------
+    h4.ui.dividing.header Calibration 3: ​Fluorescence standard curve - Fluorescein Protocol 
+    h5.ui.header Materials: 
+    p Fluorescein (provided in kit), 10ml 1xPBS pH 7.4-7.6, 96 well plate, black with clear flat bottom
+    h5.ui.header Method:
+    h6.ui.header Prepare the fluorescein stock solution: 
+    ol.ui.ordered.list
+      li Spin down fluorescein kit tube to make sure pellet is at the bottom of tube.
+      li Prepare 10x fluorescein stock solution (100 μM) by resuspending fluorescein in 1            mL of 1xPBS.
+      li Dilute the 10x fluorescein stock solution: 100 μL of 10x fluorescein stock into 900 μL 1x PBS 
+    h6.ui.header Prepare the serial dilutions of fluorescein:
+    ol.ui.ordered.list
+      li Add 100 μl of PBS​ into wells A2, B2, C2, D2....A12, B12, C12, D12.
+      li Add 200 μl​ ​of fluorescein 1x stock​ solution into A1, B1, C1, D1.
+      li Transfer 100 μl of fluorescein stock solution from A1 into A2.
+      li Mix A2 by pipetting up and down 3x and transfer 100 μl into A3…
+      li Mix A3 by pipetting up and down 3x and transfer 100 μl into A4... 
+      li Mix A4 by pipetting up and down 3x and transfer 100 μl into A5... 
+      li Mix A5 by pipetting up and down 3x and transfer 100 μl into A6... 
+      li Mix A6 by pipetting up and down 3x and transfer 100 μl into A7... 
+      li Mix A7 by pipetting up and down 3x and transfer 100 μl into A8... 
+      li Mix A8 by pipetting up and down 3x and transfer 100 μl into A9... 
+      li Mix A9 by pipetting up and down 3x and transfer 100 μl into A10... 
+      li Mix A10 by pipetting up and down 3x and transfer 100 μl into A11... 
+      li Mix A11 by pipetting up and down 3x and transfer 100 μl into ​liquid waste.
+      li Repeat dilution series for rows B, C, D
+    h6.ui.header ​Fluorescence standard curve:
+    ol.ui.ordered.list
+      li Measure fluorescence of all samples in instrument.
+      li Record the data in your notebook.
+      li Import data into Excel sheet provided (​fluorescein standard curve tab​)
+    .ui.hidden.header
+    //--------------------
+    h3.ui.dividing.header#Day2 Day 2
+    h4.ui.dividing.header Cell measurement protocol
+    h5.ui.header Materials:
+    p Competent cells (​<i>Escherichia coli</i> strain DH5α), LB (Luria Bertani) media, Chloramphenicol (stock concentration 25 mg/mL dissolved in EtOH), 50 ml Falcon tube, 1.5 ml Eppendorf tubes for sample storage, Ice bucket with ice, Micropipettes and tips 96 well plate, black with clear flat bottom preferred, Devices (from Distribution Kit, all in pSB1C3 backbone)
+    h6.ui.header Device
+    table.ui.celled.olive.table
+      thead
+        tr  
+          th Device
+          th Part Number
+      tbody
+        tr
+          td Negative control 
+          td BBa_R0040
+        tr          
+          td Positive control
+          td BBa_I20270
+        tr          
+          td Test device 1
+          td BBa_J364000
+        tr          
+          td Test device 2
+          td BBa_J364001
+        tr          
+          td Test device 3
+          td BBa_J364002
+        tr          
+          td Test device 4
+          td BBa_J364007
+        tr          
+          td Test device 5
+          td BBa_J364008
+        tr          
+          td Test device 6
+          td BBa_J364009
+    h5.ui.header Method:
+    p transform ​<i>Escherichia coli</i> DH5α with these following plasmids (all in pSB1C3)
+    table.ui.celled.olive.table
+      thead
+        tr  
+          th Device
+          th Part Number
+        tbody
+        tr
+          td Negative control 
+          td BBa_R0040
+        tr          
+          td Positive control
+          td BBa_I20270
+        tr          
+          td Test device 1
+          td BBa_J364000
+        tr          
+          td Test device 2
+          td BBa_J364001
+        tr          
+          td Test device 3
+          td BBa_J364002
+        tr          
+          td Test device 4
+          td BBa_J364007
+        tr          
+          td Test device 5
+          td BBa_J364008
+        tr          
+          td Test device 6
+          td BBa_J364009
+    .ui.hidden.header
+    //--------------------
+    h3.ui.dividing.header#Day3 Day 3
+    h5.ui.header Method:
+    ol.ui.ordered.list
+      li Pick 2 colonies from each of the transformation plates and inoculate in 5-10 mL LB medium + Chloramphenicol. 
+      li Grow the cells overnight (16-18 hours) at 37°C and 220 rpm.
+    .ui.hidden.header
+    //--------------------
+    h3.ui.dividing.header#Day4 Day 4
+    h4.ui.header Cell growth, sampling, and assay
+    ol.ui.ordered.list
+      li  Make a 1:10 dilution of each overnight culture in LB+Chloramphenicol (0.5mL of culture into 4.5mL of LB+Chlor)
+      li  Measure Abs​600​ of these 1:10 diluted cultures.
+      li  Record the data in your notebook.
+      li  Dilute the cultures further to a target Abs​600 of 0.02 in a final volume of ​12 ml LB medium + Chloramphenicol in 50 mL falcon tube.
+      li  Take 500 µL samples of the diluted cultures at 0 hours into 1.5 ml Eppendorf tubes, prior to incubation. Place the samples on ice.
+      li  Incubate the remainder of the cultures at 37°C and 220 rpm for 6 hours.
+      li  Take 500 µL samples of the cultures at 6 hours of incubation into 1.5 ml Eppendorf tubes. Place samples on ice.
+      li  measure your samples (Abs​600 and fluorescence measurement)
+      li  Record data in your notebook.
+      li  Import data into Excel sheet provided (​fluorescence measurement tab​)
+    h4.ui.header Measurement
+    p Layout for Abs​600​ and Fluorescence measurement. At the end of the experiment, you should have two plates to read. You will have one plate for each time point: 0 and 6 hours. On each plate you will read both fluorescence and absorbance.
+    .ui.hidden.header
+    //--------------------
+    h3.ui.dividing.header#Day5 Day 5
+    h4.ui.header Colony Forming Units per 0.1 OD600 E. coli cultures
+    p This protocol assumes that 1 bacterial cell will give rise to 1 colony.
+    p For the CFU protocol, you will need to count colonies for your two Positive Control (BBa_I20270) cultures and your two Negative Control (BBa_R0040) cultures
+    h4.ui.header Method:
+    h5.ui.header Starting Sample Preparation:
+    ol.ui.ordered.list
+      li Add 25 μL culture to 175 μL LB + Cam in a well in a black 96-well plate, with a clear, flat bottom. Each well should have 200 μL.
+      li Dilute your overnight culture to OD600 = 0.1 in 1mL of LB + Cam media. Do this in triplicate for each culture.
+      li Check the OD600 and make sure it is 0.1.
+    h5.ui.header Dilution Series Instructions
+    ol.ui.ordered.list
+      li You will need 3 LB Agar + Cam plates (36 total). 
+      li Prepare three 2.0 mL tubes (36 total) with 1900 μL of LB + Cam media for Dilutions 1, 2, and 3.
+      li Prepare two 1.5 mL tubes (24 total) with 900 μL of LB + Cam media for Dilutions 4 and 5.
+      li Label each tube according to the figure below (Dilution 1, etc.) for each Starting Sample.
+      li Pipet 100 μL of Starting Culture into Dilution 1. Discard tip. Do NOT pipette up and down. Vortex tube for 5-10 secs.
+      li Repeat Step 5 for each dilution through to Dilution 5 as shown below.
+      li Aseptically spread plate 100 μL on LB + Cam plates for Dilutions 3, 4, and 5.
+      li Incubate at 37°C overnight and count colonies after 18-20 hours of growth.
+    h5.ui.header CFU/mL/OD Calculation Instructions
+    ol.ui.ordered.list
+      li Count the colonies on each plate with fewer than 300 colonies.  
+      li Multiple the colony count by the Final Dilution Factor on each plate.
+    //--------------
+    h2.ui.dividing.header#Result Result
+    h3.ui.header OD600 reference point
+    table.ui.celled.definition.center.aligned.table
+      thead
+        tr 
+          th.six.wide
+          th.five.wide LUDOX CL-X
+          th.five.wide 
+            | ddH
+            sub 2
+            | O
+      tbody
+        tr
+          td Replicate 1
+          td 0.081
+          td 0.037
+        tr
+          td Replicate 2
+          td 0.090
+          td 0.036
+        tr  
+          td Replicate 3
+          td 0.093
+          td 0.038
+        tr
+          td Replicate 4
+          td 0.084
+          td 0.037
+        tr
+          td Arith. Mean
+          td 0.087
+          td 0.037
+        tr
+          td Corrected Abs600
+          td 0.050
+          td 
+        tr
+          td Reference OD600
+          td 0.063
+          td 
+        tr
+          td OD600/Abs600
+          td 1.260
+          td
+    h3.ui.header Particle standard curve
+    img.ui.fluid.image(src="http://2018.igem.org/wiki/images/5/55/T--NCHU_Taichung--interlab1.png")
+    img.ui.fluid.image(src="http://2018.igem.org/wiki/images/8/87/T--NCHU_Taichung--interlab2.png")
+    h3.ui.header Fluorescein Standard Curve
+    img.ui.fluid.image(src="http://2018.igem.org/wiki/images/4/43/T--NCHU_Taichung--interlab3.png")
+    img.ui.fluid.image(src="http://2018.igem.org/wiki/images/1/11/T--NCHU_Taichung--interlab4.png")
+    h3.ui.header Dilution Series Instructions
+    table.ui.celled.definition.center.aligned.table
+      thead
+        tr 
+          th.five.wide
+          th.two.wide OD600
+          th.three.wide 8*10^5 dilution plate
+          th.three.wide 8*10^6 dilution plate
+          th.three.wide CFUs 1*10^8 CFU/ml
+      tbody
+        tr
+          td BBa_I20270 Culture 1. Dilution Replicate 1
+          td 0.1528
+          td 716
+          td 264
+          td 211200000
+        tr 
+          td BBa_I20270 Culture 1. Dilution Replicate 2
+          td 0.1531
+          td 8884
+          td 264
+          td 211200000
+        tr 
+          td BBa_I20270 Culture 1. Dilution Replicate 3
+          td 0.156
+          td 854
+          td 152
+          td 121600000
+        tr 
+          td BBa_I20270 Culture 2. Dilution Replicate 1 
+          td 0.1402
+          td 816
+          td 146
+          td 116800000
+        tr 
+          td BBa_I20270 Culture 2. Dilution Replicate 2
+          td 0.1405
+          td 836
+          td 114
+          td 91200000
+        tr 
+          td BBa_I20270 Culture 2. Dilution Replicate 3
+          td 0.1409
+          td 839
+          td 102
+          td 81600000
+        tr 
+          td BBa_R0040 Culture 1. Dilution Replicate 1
+          td 0.1302
+          td 629
+          td 156
+          td 124800000
+        tr 
+          td BBa_R0040 Culture 1. Dilution Replicate 2
+          td 0.1305
+          td 691
+          td 188
+          td 150400000
+        tr 
+          td BBa_R0040 Culture 1. Dilution Replicate 3
+          td 0.1303
+          td 634
+          td 94
+          td 75200000
+        tr 
+          td BBa_R0040 Culture 2. Dilution Replicate 1
+          td 0.1188
+          td 405
+          td 223
+          td 178400000
+        tr 
+          td BBa_R0040 Culture 2. Dilution Replicate 2
+          td 0.1189
+          td 367
+          td 298
+          td 238400000
+        tr 
+          td BBa_R0040 Culture 2. Dilution Replicate 3
+          td 0.1190
+          td 416
+          td 367
+          td 293600000
+    p For more detailed data, check 
+      a(href="http://2018.igem.org/wiki/images/c/c7/T--NCHU_Taichung--InterLabData.xlsx") InterLabData.xlsx
+
+

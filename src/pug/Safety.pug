@@ -1,0 +1,70 @@
+extend layout
+block content
+  .ui.raised.segment#mainbox
+    h1.ui.hidden.header
+    .ui.huge.header#top Safety
+    h2.ui.dividing.header Organism
+    p.longP In nowadays, with the environmental awareness rising, dioxin contamination in Taiwan is a big problem waiting to be solved in an efficient way. TonB and 2-haloacid dehalogenaseos come from <i>Burkholderia cenocepacia</i> 869T2, which was isolated from the <i>Chrysopogon zizanioides</i>(=<i>Vetiveria zizanioides</i> ) at diesel polluted site called the China Petrochemical Development Corporation.  <i>Burkholderia cenocepacia</i> 869T2 is a member of the <i>Burkholderia cepacia</i> complex (Bcc), which consists of several species of closely related and extremely versatile gram-negative bacteria found naturally in soil, water, and the rhizosphere of plants and may also cause plant or human disease (ex: cycstic fibrosis). However, through the WGS Chia-Jung Tsai discovered that there is a significant disparity between <i>Burkholderia cenocepacia</i> 869T2 and other strains of <i>Burkholderia</i> <sup>[1]</sup>. And also through the 16S rRNA sequences, <i>Burkholderia seminalis</i> is the one which related to 869T2 the most in <i>Burkholderia spp.</i> which mainly purpose is to urge plant growth or to inhibit plant disease <sup>[2]</sup>. Despite the 869T2, we also ensure that all parts we’re using come from <i>Escherichia coli</i> (K12 strain), <i>Burkholderia phytofirmans</i> PsJN, <i>Bacillus subtilis</i> rm125 and <i>Termitomyces</i> T984 are all in risk one. And for more information about 869T2 and PsJN you can see in the <a href=“http://2018.igem.org/Team:NCHU_Taichung/Background”>background</a>.
+    h2.ui.dividing.header Dioxin Treatment
+    .ui.image#labelImg
+      img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/0/08/T--NCHU_Taichung--safety1.png')
+      .ui.pointing.label 2,3,7,8-tetrachlorodibenzo-p-dioxin
+    table.ui.celled.olive.table
+      thead
+        tr  
+          th TEF                 
+          th Decomposition       
+          th Melting point       
+          th Solubility in water 
+          th Vapor pressure      
+      tbody
+        tr    
+          td 1                   
+          td 932℃                
+          td 305-306℃          
+          td 2X10-4 mg/L at 25℃  
+          td 0.000002 mmHg at 25℃
+    p.longP
+      | Since our project is mainly about the 2,3,7,8-tetrachlorodibenzo-p-dioxin, using dioxin in our experiment is inevitable. According to the research, Tetrachlorodibenzo-p-dioxin is stable under ordinary conditions of storage and is considered relatively stable toward heat, acids, and alkalies
+      sup [4][5]
+      |. As the solubility in water is very little, we solute it in the methylbenzene. And the vapor pressure of 2,3,7,8-TCDD is very low so it’s difficult to volatilize. However, the expose of dioxin still might be the biggest safety problem, so we visit the dioxin-related expert in <a href="http://2018.igem.org/Team:NCHU_Taichung/Human_Practices#TACTRI">the Agricultural Chemicals and Toxic Substances Research Institute(TACTRI).</a> Eventually, we sort out a safety manual from the lab training and also from the expert advice.
+    h3.ui.header Safety Manual
+    ol.ui.ordered.list
+      li Wear the lab-coat inside, another disposable lab-coat outside, the disposable mask and gloves.
+      li for the non-disposable equipment such as pippete : wrap them with plastic wrap before using, and dispose the plastic wrap after the experiment.
+      li For the waste:
+        ol
+          li(value='-') waste liquid: <br>Collect in the waste barrel and send it to the “Center for Environmental Protection and Occupational Safety and Health” which is in our school
+          li(value='-') equipment waste: <br>Collect in BIOHAZARD Autoclave Bag and send it to a waste clearance and treatment facility
+      li Do the dioxin-related experiment in the fume hood with absorbent benchtop 
+      li Keep the TCDD in the right place where have a warning sign
+    .ui.hidden.header
+    .ui.grid
+      .ui.image
+        img.ui.image.clmnImg(src="http://2018.igem.org/wiki/images/7/73/T--NCHU_Taichung--safety2.png")
+      .eight.wide.column#labelImg
+        img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/8/86/T--NCHU_Taichung--safety-3.jpeg')
+        .ui.pointing.label The authority's regulation on dioxin didn't list the 2,3,7,8-TCDD on Toxic chemical's list, buying 2,3,7,8-TCDD in school is legal and accessible.
+      .eight.wide.column#labelImg
+        img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/4/42/T--NCHU_Taichung--safety-4.jpeg')
+        .ui.pointing.label BIOHAZARD Autoclave Bag
+    h2.ui.dividing.header Our lab
+    .ui.grid
+      .sixteen.wide.column.image
+        img.ui.image.clmnImg(src="http://2018.igem.org/wiki/images/f/ff/T--NCHU_Taichung--safety-5.png")
+      .eight.wide.column.image
+        img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/a/a6/T--NCHU_Taichung--safety-6.jpeg')
+      .eight.wide.column.image
+        img.ui.image.clmnImg(src="http://2018.igem.org/wiki/images/2/25/T--NCHU_Taichung--safety-7.png")
+      .nine.wide.column.image
+        img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/a/a5/T--NCHU_Taichung--safety8.png')
+      .seven.wide.column#labelImg
+        img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/1/1f/T--NCHU_Taichung--safety-9.jpeg')
+        .ui.pointing.label Although we’re mainly working in P1 level lab, we still have P2 level lab while we need it.
+    .ui.hidden.header
+    h2.ui.dividing.header Reference
+    .ui.ordered.list
+      .item Angus, A.A., et al., Plant-associated symbiotic Burkholderia species lack hallmark strategies required in mammalian pathogenesis. PLoS One., 2014. 9(1).
+      .item Chia-Jung Tsai. (2018). Transcriptomic analysis of endophytic bacterium Burkholderia sp. 869T2 during 2,3,7,8-Tetrachlorodibenzodioxin decomposing. Master Thesis from the National Chung Hsing University.
+      .item Hayes, Wayland J., Jr. Pesticides Studied in Man. Baltimore/London: Williams and Wilkins, 1982., p. 479
+      .item USEPA; Drinking Water Criteria Document for 2,3,7,8-Tetrachlorodibenzo-p-dioxin p.I-1 (1985) EPA 600/x-84/94-1

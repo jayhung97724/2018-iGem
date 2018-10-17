@@ -93,6 +93,31 @@ let protocols = [
     ]
   },
   {
+    "title": "Preparation of competent cells for endophyte",
+    "content": [
+      "A frozen glycerol stock of bacteria is picked with a toothpick and spread on a KB agar plate. Place plates inverted at 28 °C for 2-3 days in the dark.",
+      "Freshly grown colony is inoculated to 5 ml of LB medium in a 15 ml tube and further incubated at 28 °C for 16 h with horizontal shaking at 200 rpm.",
+      "1 ml aliquots is centrifuged twice at 3,500 x g at 4 °C for 5 min.",
+      "Each time the pellet is dissolved in 1 ml of filter sterilized and room temperature 300 mM sucrose solution.",
+      "The pellet is dissolved in 200 μl of 300 mM sucrose solution and divided into 100 μl aliquots and used the cells immediately for a further transformation step."
+    ]
+  },
+  {
+    "title": "Transformation for endophyte",
+    "content": [
+      "Add ~1 μg of vector into bacteria.",
+      "Transfer the mixture of cells + DNA to an electroporation cuvette (0.1 cm electrode gap). Make sure the suspension is at the bottom of the cuvette.",
+      "Set the Gene Pulser apparatus at 25 μF the volt at 1.8 kV. Set the Pulse resistance controller to 200 ohms.",
+      "Place the cuvette in the chamber slide (Cuvette notch facing away from you).",
+      "Push the slide into the chamber until the cuvette is seated between the contacts in the base of the chamber.",
+      "Electroporate by pushing the red button.",
+      "Remove the cuvette from the chamber and immediately add 1 ml of LB medium to the cuvette and quickly resuspend the cells by pipetting.",
+      "Transfer the cell suspension from the cuvette to 1.5 ml tubes and incubate on shaker (200 rpm) at 28 °C for 2 h to allow recovery and expression of the gentamycin resistance marker (Clean cuvettes successively with dH 2 O, EtOH, sterile water, then wrap with aluminum foil then autoclave).",
+      "Pipette 200 μl of each transformation on KB agar plates containing 25 ng/ml gentamycin.",
+      "Spread the cells with cell spreaders. Place plates inverted at 28 °C for 2-3 days in the dark."
+    ]
+  },
+  {
     "title": "Medium",
     "content": [
       "<b>Solid M.S medium:</b><br>4.4g/L MS Murashige and skoog Basal Medium (store at 4° C fridge), 1.5 % Sucrose, and 0.8% agar, use HCl or KOH to adjusted pH to 5.7. autoclaved at 120°C for 20 mins.",

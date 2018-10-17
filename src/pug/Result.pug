@@ -1,0 +1,140 @@
+extends layout
+block content
+  .ui.left.very.close.rail#railMenu
+    .ui.sticky
+      .ui.secondary.vertical.pointing.menu
+        a.active.item(href='#Introduction')
+          | Introduction
+        a.item(href='#Protocol')
+          | Protocol
+        a.item(href='#Day1')
+          | Day 1
+        a.item(href='#Day2')
+          | Day 2
+        a.item(href='#Day3')
+          | Day 3
+        a.item(href='#Day4')
+          | Day 4
+        a.item(href='#Day5')
+          | Day 5
+        a.item(href='#Result')
+          | Result
+  .ui.segment#mobileRailMenu
+    .ui.sticky
+      .ui.secondary.vertical.pointing.menu
+        a.active.item(href='#Introduction')
+          | Introduction
+        a.item(href='#Protocol')
+          | Protocol
+        a.item(href='#Day1')
+          | Day 1
+        a.item(href='#Day2')
+          | Day 2
+        a.item(href='#Day3')
+          | Day 3
+        a.item(href='#Day4')
+          | Day 4
+        a.item(href='#Day5')
+          | Day 5
+        a.item(href='#Result')
+          | Result
+  .ui.segment#topSeg
+    h1.ui.hidden.header
+    h1.ui.huge.header Result
+    h2.ui.dividing.header#VETIVER THE RESULTS OF EXPERIMENTS ON VETIVER
+    .ui.hidden.header
+    h3.ui.header Phenotype Comparison
+    .ui.grid
+      .eight.wide.column#labelImg
+        img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/1/13/T--NCHU_Taichung--VETIVER1.png')
+        .ui.pointing.label Figure 1. Vetiver+TCDD+869T2
+      .eight.wide.column#labelImg
+        img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/c/c7/T--NCHU_Taichung--VETIVER2.jpg')
+        .ui.pointing.label Figure 2. Vetiver+TCDD
+    p Before the experiment was started, vetiver plants were transplanted from field to greenhouse and grew under the same settings for 30 days.  After the above pretreatment, we started the experiments with triple replication of four different treatment (Table 1) and then having analyses on some observable phenotypic characteristics.
+    table.ui.definition.center.aligned.celled.table
+      option.ui.center.aligned.small.header Table 1 
+      thead
+        tr
+          th
+          th Label N
+          th Label B
+          th Label H
+          th Label I
+      tbody
+        tr
+          td.right.aligned B. cenocepacia 869T2
+          td X
+          td O
+          td X
+          td O
+        tr  
+          td.right.aligned TCDD 
+          td X
+          td X
+          td O
+          td O
+    p We found that if we inoculate vetiver plants with B. cenocepacia 869T2, the bacteria will decrease the length of leaves but increase the number of tillers and leaves; inhibit the grow of main roots but enhance the strong lateral roots’ formation (we also see the same influence during the experiment of Arabidopsis thaliana). (Figure1 - Figure7)
+    p Vetiver plants will get some negative influence when facing to TCDD stress. For example, their leaves number, leaves length, and roots length will not grow well as where growing under the general condition without TCDD. However, not only as above mentioned that Vetiver plants' leaves number and tiller will dramatically increase when they are inoculated with endophytic bacteria B. cenocepacia 869T2 but if the vetiver plants are also in the TCDD treatment in same time, this effect seems quite more obvious.
+    p Therefore, we can understand that the endophytic bacteria B. cenocepacia strain 869T2 can not only survive in high TCDD concentration condition and do some positive effect on its host but also can use the TCDD as a kind of resource for itself to achieve something that still unrevealed.
+    .ui.fluid.image#labelImg
+      img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/8/8b/T--NCHU_Taichung--VETIVER3.png')
+      .ui.pointing.label Figure 3. Vetiver plants’ leaves number in the different treatments.
+      .ui.hidden.header
+    .ui.fluid.image#labelImg
+      img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/6/68/T--NCHU_Taichung--VETIVER4.png')
+      .ui.pointing.label Figure 4. Phenotypes of vetiver plants’ overground part in the different treatments.
+      .ui.hidden.header
+    .ui.fluid.image#labelImg
+      img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/e/e1/T--NCHU_Taichung--VETIVER5.png')
+      .ui.pointing.label Figure 5. Vetiver plants’ leaves length in the different treatments.
+      .ui.hidden.header
+    .ui.fluid.image#labelImg
+      img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/f/f3/T--NCHU_Taichung--VETIVER6.png')
+      .ui.pointing.label Figure 6. Vetiver plants’ roots number in the different treatments.    
+      .ui.hidden.header
+    .ui.fluid.image#labelImg
+      img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/5/5d/T--NCHU_Taichung--VETIVER7.png')
+      .ui.pointing.label Figure 7. Phenotypes of vetiver plants’ underground part in the different treatments.
+      .ui.hidden.header
+    //--------------
+    h3.ui.dividing.header ENDOPHYTIC BACTERIA EXIST RECHECK
+    .ui.hidden.header
+    .ui.fluid.image#labelImg
+      img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/2/2b/T--NCHU_Taichung--VETIVER8.png')
+      .ui.pointing.label Figure 8. Recheck of 30 days after endophytic bacteria inoculation.
+      .ui.hidden.header
+    p On day 30, we harvested the vetiver plants for rechecking whether endophytic bacteria still exist.
+    p First, we used bleach, EtOH, and sterile water to surface-sterilize plants.  Second, we ground the vetiver plants completely and dilute the ground liquid with 10 times, and then spread it into LB agar plate for culturing the target bacteria.  Last, we observe the morphology of a single colony to check the two bacteria.  A single colony of B. cenocepacia 869T2 is small, circular, entire, raised, glistening veined, yellow-green.  Also, there have no any bacteria present in the control sample.
+    p Accordingly, we know that B. cenocepacia 869T2 has a great endophytic character and can live in vetiver plants for at least 30 days during our experiment.
+    //--------------
+    .ui.hidden.header
+    h3.ui.dividing.header Analysis of TCDD concentration in plants
+    p The concentration of dioxin in the plant samples in our experiment was tested by Worthies Engineering Consultant Co., Ltd. according to the "Test Method for Dioxin and Polychlorinated Biphenyl Residues in Food (CNS 14758 N6369)" published by the MOHW of Executive Yuan.
+    p As the following report presents, the sample which had not been inoculated with B. cenocepacia 869T2 but planted in TCDD contained matrix directly was be detected that having 343.253 pg/g TCDD concentration (Table 2) ; the sample which had been inoculated with B. cenocepacia 869T2 and then planted in TCDD contained matrix was be detected that having 2.12257 pg/g TCDD concentration (Table 3) .   
+    p The vetiver plants inoculated with B. cenocepacia 869T2 shows about 162 times less TCDD concentration than the plants didn't be inoculated.  Based on this result, it becomes much more solid for us to point out that the endophytic bacteria B. cenocepacia 869T2 has the super strong TCDD degradation ability and therefore has the highly potential to act an extremely important role in our program. 
+    .ui.center.aligned.small.header Table 2. Analysis report of sample didn’t inoculate with B. cenocepacia 869T2
+    .ui.fluid.image
+      img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/1/1e/T--NCHU_Taichung--VETIVER9.png')
+      .ui.hidden.header
+    .ui.center.aligned.small.header Table 3. Analysis report of sample did inoculate with B. cenocepacia 869T2
+    .ui.fluid.image
+      img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/c/c6/T--NCHU_Taichung--VETIVER10.png')
+      .ui.hidden.header
+  //---------------------------
+  //- .ui.olive.segment
+  //-   h2.ui.header THE RESULTS sth else
+  //-   p Reliable and standardize
+  //-   //--------------
+  //-   h2.ui.dividing.header P
+  //-   .ui.fluid.image#labelImg
+  //-     img.ui.image.clmnImg(src='http://2018.igem.org/wiki/images/8/8b/T--NCHU_Taichung--VETIVER3.png')
+  //-     .ui.pointing.label Figure 3. Vetiver plants’ leaves number in the different treatments.
+  //-     .ui.hidden.header
+  //- //---------------------------
+  //- .ui.olive.segment
+  //-   h2.ui.header THE RESULTS OF EX5654
+  //-   p Reliable and standardized u
+  //-   //--------------
+  //-   h2.ui.dividing.header#Protocol Protocol
+  //- //----------------------------

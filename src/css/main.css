@@ -30,6 +30,25 @@
 #mobileRailMenu {
   display: none;
 }
+@media only screen and (max-width: 1024px) {
+  #submenu {
+    left: 0px;
+    top: 36px!important;
+  }
+  #railMenu {
+    display: none;
+  }
+  #mobileRailMenu {
+    display: block;
+    text-align: -webkit-right;
+    height: unset!important;
+  }
+  .ui.vertical.menu {
+    width: 30vw;
+    background: white;
+    border-radius: 4px 0 0 4px;
+  }
+}
 @media only screen and (max-width: 767px) {
   #top_menu_14 {
     display: none;
@@ -58,28 +77,15 @@
   #sidemenu {
     width: 100vw;
   }
-  #submenu {
-    left: 0px;
-    top: 36px!important;
-  }
-  #railMenu {
-    display: none;
-  }
-  #mobileRailMenu {
-    display: block;
-    text-align: -webkit-right;
-  }
-  .ui.vertical.menu {
-    width: 30vw;
-    background: white;
-    border-radius: 4px 0 0 4px;
-  }
 }
 .ui.inverted.segment, .ui.inverted.menu {
   background: #afbfa5;
 }
 body {
   background: #fafff8;
+}
+body > * {
+  font-size: initial!important;
 }
 .left.rail {
   right: 87%!important;
@@ -95,7 +101,7 @@ body {
 }
 .six.wide.column {
   display: flex!important;
-  align-items: center;
+  align-items: center!important;
 }
 .clmnImg {
   box-shadow: 3px 5px 14px 0px #cdcdcd!important;
@@ -116,6 +122,12 @@ body {
   display: inline-table!important;
 }
 
+.longP {
+  line-height: 1.78rem;
+}
+#topSeg {
+  border-top: none;
+}
 /* --- main bg --- */
 
 #mainbg {
@@ -128,9 +140,9 @@ body {
 	-moz-background-size: cover;
 }
 
-#mainbg > * {
-  /* border: solid; */
-}
+/* #mainbg > * {
+  border: solid;
+} */
 #mainbg > .grid {
   height: 100%;
 }
@@ -139,10 +151,10 @@ body {
   align-items: center;
 }
 #paddtoprow {
-  height: 6.5%;
+  height: 6.75%;
 }
 #first {
-  height: 23.5%;
+  height: 23.25%;
 }
 #eq {
   height: calc((100% - 35%) / 3);
@@ -159,8 +171,6 @@ body {
 }
 
 
-
-
 /* Remove heritage css */
 #top_title {
   display: none;
@@ -173,6 +183,11 @@ body {
 #HQ_page {
     width: 100vw;
 }
+#HQ_page table {
+  margin-left: unset;
+  margin-right: unset;
+  border-top: .2em solid #b5cc18!important;
+}
 .header#top {
   margin-top: 10px;
 }
@@ -182,6 +197,10 @@ body {
 } */
 #globalWrapper {
   padding-bottom: 0;
+}
+#HQ_page p {
+  font-family: inherit!important;
+  font-size: 15px!important;
 }
 /* #top_menu_inside {
   border: none;
